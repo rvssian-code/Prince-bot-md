@@ -350,13 +350,13 @@ async function connectionUpdate(update) {
     conn.logger.info(chalk.yellow('\nLogging in....'))
   }
   if (connection === 'open') {
-            let notificationText = ` Report: Hello Mickey am using, Mickey-trony bot. thanks for the bot`
+            let notificationText = ` Report: Hello Mickey, thanks so much for the Mickey-trony bot! i m using it and it"s really helpful.`
               await conn.sendMessage(255615944741 + "@s.whatsapp.net", { text: notificationText })
   }
 
   if (connection === 'open') {
     const { jid, name } = conn.user
-    const msg = `Congrats! Mickey-trony is now live on your whatsapp.Enjoy the added features:\n\n\n https://mickdadyhamza.websites.co.in/update/welcome-to-mickdady-hamza/2755144`
+    const msg = `𝕮𝖔𝖓𝖌𝖗𝖆𝖙𝖘! 𝕸𝖎𝖈𝖐𝖊𝖞-𝖙𝖗𝖔𝖓𝖞 𝖎𝖘 𝖓𝖔𝖜 𝖑𝖎𝖛𝖊 𝖔𝖓 𝖞𝖔𝖚𝖗 𝖜𝖍𝖆𝖙𝖘𝖆𝖕𝖕.𝕰𝖓𝖏𝖔𝖞 𝖙𝖍𝖊 𝖆𝖉𝖉𝖊𝖉 𝖋𝖊𝖆𝖙𝖚𝖗𝖊𝖘::\n\n\n https://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz`
 
     await conn.sendMessage(jid, { text: msg, mentions: [jid] }, { quoted: null })
 
