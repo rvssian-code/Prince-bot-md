@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let pp = './jusorts/lazack.jpg'
+let pp = './Botify/lazack.jpg'
 let user = global.db.data.users[who]
 let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = global.db.data.users[who]
 let { min, xp, max } = xpRange(user.level, global.multiplier)
@@ -41,7 +41,7 @@ let str = `
 > Library : MICKEY INFO TECH
 > Version : 2.9.0
 > website : https://mickdadyhamza.websites.co.in/update/welcome-to-mickdady-hamza/2755144
-> source : https://github.com/Mickeymozy/Denzel-V2
+> source : https://github.com/Mickeymozy/Mickey-trony
 
 @ Denzel is bot made up by Mickey
   *Thank you for your cooperation.* 
