@@ -196,8 +196,7 @@ let str = `
 │ .mysn
 │ .unreg
 ╰───────────────╯
-*https://home.lazackorganisation.my.id*
-> FOOTBALL IS MY LIFE, CODING IS MY HOBBY
+*Type any command with start perfix*
 `
 
 
