@@ -1,28 +1,30 @@
-const userLastMessageMap = new Map();
-
 export async function all(m) {
-  // when someone sends a group link to the bot's dm
+  // when someone sends you a hello message
   if (
-    (m.mtype === 'groupInviteMessage' ||
+    (m.mtype === 'hellomessage' ||
       m.text.startsWith('Hello') ||
-      m.text.startsWith('Mambo')) &&
+      m.text.startsWith('Hi') ||
+      m.text.startsWith('Mambo') ||
+      m.text.startsWith('Oy') ||
+      m.text.startsWith('Niaje') ||
+      m.text.startsWith('kaka')) &&
     !m.isBaileys &&
     !m.isGroup
   ) {
-    this.sendMessage(
+    // Send a welcome message with mentions
+    await this.sendMessage(
       m.chat,
       {
-        text: `*Hi ✋*`.trim(),
+        text: `*KARIBU NA ASANTE KWA KUWASILIANA NAMI*      
+        HABARI ZA MDA HUU @${m.sender.split('@')[0]} 
+        Napenda kukufahamisha mfumo wetu wa kiautomatic umeboreshwa una weza uka acha ujumbe na si tutajibu haraka iwezekanavyo`.trim(),
       },
-      { quoted: m }
-    )
-    /*this.sendButton(m.chat, `*Invite bot to a group*      
-    Hallo @${m.sender.split('@')[0]} 
-    you can rent the bot to join a group or contact owner 
-    more info click on the button
-  `.trim(), igfg, null, [['Rent', '/buyprem']] , m, { mentions: [m.sender] })*/
-    m.react('😎')
+      { mentions: [m.sender] }
+    );
+
+    // React to the message
+    m.react('🖐️');
   }
 
-  return !0
-}
+  return true; // Return true instead of !0 for clarity
+     }

@@ -6,9 +6,9 @@ let msg = await generateWAMessageFromContent(m.chat, {
   locationMessage: {
     degreesLatitude: 0,
     degreesLongitude: 0,
-    name: "Lazack-Device Bot click here",
+    name: "Denzel V2 click here ",
     address: "Tanzania",
-    url: "https://Github.com/Lazack28/Lazack-Device",
+    url: "https://github.com/Mickeymozy/Denzel-V2/",
     isLive: true,
     accuracyInMeters: 0,
     speedInMps: 0,

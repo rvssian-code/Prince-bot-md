@@ -6,15 +6,15 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   }
 
   // Thumbnail for external ad reply (optional)
-  const sponsorThumbnail = 'https://home.lazackorganisation.my.id/img/img1.png'; // Replace with your preferred image URL
+  const sponsorThumbnail = 'https://i.imgur.com/9Q44N0E.jpeg'; // Replace with your preferred image URL
 
   // Fake contact message (optional)
   let botContact = {
     key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' },
     message: {
       contactMessage: {
-        displayName: `Lazack Device`,
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;Lazack device;;;\nFN:Lazack device\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
+        displayName: `Mickey_mozy`,
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nN:; Mickey_mozy;;;\nFN:Mickey_mozy\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
       },
     },
   };
@@ -48,13 +48,13 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
       await conn.sendMessage(
         m.chat,
         {
-          text: `✨ *Search completed!* to use this feature then, consider supporting us: https://github.com/Lazack28/Lazack-Device`,
+          text: `✨ *Search completed!* to use this feature then, consider supporting us: https://github.com/Mickeymozy/Denzel-V2/`,
           contextInfo: {
             externalAdReply: {
-              title: '🔍 Powered by Team Lazack28!',
+              title: '🔍 Powered by Team Mickey_mozy!',
               body: 'Explore, Innovate, Inspire.',
               thumbnailUrl: sponsorThumbnail,
-              sourceUrl: 'https://github.com/Lazack28/Lazack-Device',
+              sourceUrl: 'https://github.com/Mickeymozy/Denzel-V2/',
               mediaType: 1,
               renderLargerThumbnail: true,
             },

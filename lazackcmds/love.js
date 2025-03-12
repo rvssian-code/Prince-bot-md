@@ -1,9 +1,10 @@
-let handler = async (m, { conn, args }) => {
-    // Define regex and default message
-    let regix = /\S+/; // Matches any non-space character
-    let asta = "I LOVE YOU! "; // Default message if no input
+let regix = /love/i; // Regex pattern to match the word "love" (case insensitive)
+let asta = "I love you! 💖"; // Default message if the regex does not match
 
-    // Check if input matches regex, else use default
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+let handler = async (m, { conn, args }) => {
+    // Check if the input matches the regex; if not, use a default message
     let messageToSend = regix.test(args.join(' ')) ? args.join(' ') : asta;
 
     // Array of heart emojis
@@ -13,31 +14,18 @@ let handler = async (m, { conn, args }) => {
         "🙂", "🤗", "😌", "😉", "🤗", "😊", "🎊", "🎉", "🎁", "❤"
     ];
 
-    let lastMessage; // Store last message key
+    // Send the first heart emoji
+    let { key: messageKey } = await conn.reply(m.chat, messageToSend.replace(regix, "" + heartEmojis[0]), m);
 
-    try {
-        for (let i = 0; i < heartEmojis.length; i++) {
-            // If there's a previous message, delete it
-            if (lastMessage) {
-                await conn.sendMessage(m.chat, { delete: lastMessage });
-            }
-
-            // Send new heart emoji message
-            let sentMessage = await conn.sendMessage(m.chat, { text: `${messageToSend} ${heartEmojis[i]}` }, { quoted: m });
-            lastMessage = sentMessage?.key; // Store the key of the last sent message
-
-            await sleep(800); // Wait for 800ms before sending the next emoji
-        }
-    } catch (error) {
-        console.error("Error in love.js:", error);
+    // Loop through the heart emojis and send them with a delay
+    for (let i = 0; i < heartEmojis.length; i++) {
+        await sleep(800); // Wait for 800 milliseconds
+        await conn.reply(m.chat, messageToSend.replace(regix, "" + heartEmojis[i]), { edit: messageKey });
     }
-};
+}
 
-// Sleep function to create delays
-const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-
-handler.help = ['love'];
-handler.tags = ['fun'];
-handler.command = ['love'];
-
+handler.help = ['love']
+handler.tags = ['fun']
+handler.command = ['love']
+// Change to true if only the owner should use it
 export default handler;

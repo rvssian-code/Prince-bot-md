@@ -66,17 +66,17 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
 *≡ OWNER*
 ▢ Instagram :
-  • https://instagram.com/Lazack_28
+  • https://instagram.com/mickey_mozy24
 ▢ GitHub :
-  • https://github.com/Lazack28 
+  • https://github.com/Dady24 
 ▢ YouTube : 
-  • https://youtube.com/@Lazack28
+  • https://www.youtube.com/@MickdadyHamzaMickey_mozy
 ▢ credit: 
-  • mr oreo
+  • mr Mickey
 
  *≡ S E R V E R*
-*🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
-*🔵 FreeRAM:* ${format(freemem())}
+* RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
+* FreeRAM:* ${format(freemem())}
 
 *≡  NodeJS memory*
 ${
