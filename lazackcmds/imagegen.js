@@ -54,7 +54,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
               title: '🔍 Powered by Team Mickey_mozy!',
               body: 'Explore, Innovate, Inspire.',
               thumbnailUrl: sponsorThumbnail,
-              sourceUrl: 'https://github.com/Mickeymozy/Denzel-V2/',
+              sourceUrl: 'https://github.com/Mickeymozy/Mickey-trony',
               mediaType: 1,
               renderLargerThumbnail: true,
             },
