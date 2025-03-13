@@ -16,6 +16,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     let audioUrl;
     try {
       audioUrl = await youtube(video.url);
+      if (!audioUrl || !audioUrl.mp3) throw new Error("Audio URL not found");
     } catch (error) {
       return m.reply("⚠️ Failed to fetch audio. Please try again later.");
     }
