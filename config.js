@@ -7,7 +7,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "255734980103"
+const ownervb = process.env.OWNERS || "255615944741"
 
 
 const ownerlist = ownervb.split(';');
@@ -24,9 +24,9 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 //global.pairingNumber = "" //put your bot number here
 
-global.mods = ['255734980103', '255758868502']
-global.prems = ['255734980103', '255758868502', '255734980103']
-global.allowed = ['255734980103', '255734980103']
+global.mods = ['255615944741', '255612130873']
+global.prems = ['255615944741', '255612130873', '255612130873']
+global.allowed = ['255615944741', '255612130873']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -43,8 +43,8 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.rcanal = 'https://whatsapp.com/channel/0029ValRlNGCXC3EussN4b2E'
-global.canal = 'https://whatsapp.com/channel/0029ValRlNGCXC3EussN4b2E'
+global.rcanal = 'https://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz'
+global.canal = 'https://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz'
 
 
 global.APIs = {
@@ -76,14 +76,14 @@ global.APIKeys = {
 // Sticker WM
 global.botname = process.env.BOTNAME
 global.premium = 'true'
-global.packname = '𝙇𝙖𝙯𝙖𝙘𝙠'
+global.packname = '𝙡𝙖𝙯𝙖𝙘𝙠'
 global.author = '𝙡𝙖𝙯𝙖𝙘𝙠'
 global.menuvid = ''
 global.igfg = ''
 global.dygp = ''
-global.fgsc = 'https://github.com/Lazack28/Lazack-Device'
-global.fgyt = 'https://youtube.com/@lazaromtaju'
-global.fgpyp = 'https://youtube.com/@lazaromtaju'
+global.fgsc = 'https://github.com/Mickeymozy/Mickey-trony'
+global.fgyt = 'https://youtube.com/@MickeyMozy'
+global.fgpyp = 'https://youtube.com/@MickeyMozy'
 global.fglog = ''
 global.thumb = fs.readFileSync('./Botify/lazack.jpg')
 
