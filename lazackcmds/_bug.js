@@ -70,9 +70,9 @@ const MessageBug = async (target) => {
           degreesLatitude: 0.0, // Example: Invalid or edge-case coordinates
           degreesLongitude: 0.0, // You can adjust to unusual coordinates
           address: "🌍 Unexpected Location Bug",
-          name: "lazack device Test",
+          name: "Mickey device Test",
         },
-        caption: "🌀 Location Bug Sent! 🚨",
+        caption: "🌀 Mickey Bug Sent! 🚨",
       },
       { quoted: null } // Optional: Reference message
     );
