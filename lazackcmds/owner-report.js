@@ -6,7 +6,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
     const teks1 = `*[ REPORT ]*\nNumber: wa.me/${m.sender.split("@s.whatsapp.net")[0]}\nMessage: ${text}`
 
-    conn.reply('255734980103@s.whatsapp.net', teks1, m)
+    conn.reply('255615944741@s.whatsapp.net', teks1, m)
 
     conn.reply(m.chat, 'The issue has been successfully sent to the Owner', m)
 
