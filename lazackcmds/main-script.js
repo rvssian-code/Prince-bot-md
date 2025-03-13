@@ -6,9 +6,9 @@ let msg = await generateWAMessageFromContent(m.chat, {
   locationMessage: {
     degreesLatitude: 0,
     degreesLongitude: 0,
-    name: "Denzel V2 click here ",
+    name: "Mickey-trony repo click here ",
     address: "Tanzania",
-    url: "https://github.com/Mickeymozy/Denzel-V2/",
+    url: "https://github.com/Mickeymozy/Mickey-trony/",
     isLive: true,
     accuracyInMeters: 0,
     speedInMps: 0,
@@ -22,6 +22,6 @@ return conn.relayMessage(m.chat, msg.message, {})
 }
 handler.help = ['script']
 handler.tags = ['info']
-handler.command = ['script', 'script2']
+handler.command = ['script', 'repo']
 
 export default handler
