@@ -4,8 +4,8 @@ let handler = async m =>
    乂───『 *DENZEL BOT*』───乂 
 > Library : MICKEY INFO TECH
 > Version : 2.9.0
-> source : https://github.com/Mickeymozy/Denzel-V2
-> website : https://mickdadyhamza.websites.co.in/update/welcome-to-mickdady-hamza/2755144
+> source : https://github.com/Mickeymozy/Mickey-trony
+> website : https://rosy-cheetah-m2mt9z.mystrikingly.com/ 
 
       if you find error or want to upgrade to premium plan contact to the owner.
       
@@ -37,6 +37,6 @@ let handler = async m =>
   )
 handler.help = ['ruth']
 handler.tags = ['main']
-handler.command = ['menu']
+handler.command = ['menu2']
 
 export default handler
