@@ -1,29 +1,31 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+LAZACK+MD+BOTS+MADE+BY;LAZACK28;THANKS+FOR+VISITING+MY+REPO)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+DENZEL+BOT+V2+MADE+BY;MICK🇹🇿;THANKS+FOR+VISITING+MY+REPO)](https://git.io/typing-svg)
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+<p align="left">
+  <a href="" target="_blank">
+    <img alt="Forks" src="https://img.shields.io/github/forks/Dady24/Denzel-V2/" />
+  </a>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=F70707&center=true&width=910&height=100&lines=LAZACK+M+DEVICE" alt="Typing SVG" /></a>
-  </p>
-<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+</p>
+<p align="center"><img src="https://profile-counter.glitch.me/{Lazack28}/count.svg" alt="Lazack28 :: Visitor's Count" /></p>
+<p align="center">  
 
-***[GROUP](https://chat.whatsapp.com/IIpL6gf6dcq4ial8gaJLE9)***
+<p align="center">
+  <a href="https://chat.whatsapp.com/ICNOZzsDH9E81j3RlqLx4w">
+    <img alt=Support height="250" src="https://i.imgur.com/gcB7GLV.jpeg"> 
+    </p>
+
+****[FORK THIS REPO](https://github.com/Dady24/Denzel-V2//fork)****
+
+***[GROUP](https://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz)***
 
 
 ------------------------------------------
 
-**Genenerate pairing code**
+<a href="https://mickdadyhamza.websites.co.in"><img alt='OWNER' src='https://img.shields.io/badge/GET IN TOUCH-magenta?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
 
-
-<a href="https://lazackorganisation.my.id" target="_blank"><img alt='PAIRING' src='https://img.shields.io/badge/PAIRING CODE-magenta?style=for-the-badge&logo=opencv&logoColor=white'/></a>
-
-
-
-**Get in touch with the creator**
-
-
-<a href="https://lazackorganisation.us.kg"><img alt='OWNER' src='https://img.shields.io/badge/GET IN TOUCH-magenta?style=for-the-badge&logo=opencv&logoColor=white'/></a>
-
+         +255612130873 My number 
+<a href='https://silver-carly-54.tiiny.site/' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE--magenta?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
 -------------------------
 
@@ -37,7 +39,7 @@
 
 *****DEPLOYMENT SITE👇*****
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Lazack28/Lazack-Device)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Lazack28/Lazack-advanced)
   
 <a href='https://replit.com/~' target="_blank"><img alt='Deploy Replit' src='https://img.shields.io/badge/DEPLOY REPLIT-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
@@ -49,7 +51,7 @@
 
 ****MAIN DEV EDITOR****
 
- [![Lazack28](https://github.com/Lazack28.png?size=100)](https://github.com/Lazack28)
+ [![Mickey 24](https://github.com/Mickeymozy.png?size=100)](https://github.com/Mickeymozy)
 
 ----------------------
 
@@ -57,12 +59,6 @@
 </h2>
    
  
-- *Lazack Bots are made by a student if you see any errors please submit a pull request`*
+- *Denzel Bots are made by a student if you see any errors please submit a pull request`*
 - *I may help you in bot deployment and bot code editing if i have time to do so*
-- *[UPDATES](https://me.payus.web.id/lazack)*
-
-
-
-
-
-         CREDIT TO GURU & SILVA MD
+- *Use Denzel bots are always safe to youre heroku and give us credits.*
