@@ -37,13 +37,13 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-乂───『 *DENZEL BOT*』───乂 
+乂───『 *MICKEY-TRONY BOT*』───乂 
 > Library : MICKEY INFO TECH
 > Version : 2.9.0
-> website : https://mickdadyhamza.websites.co.in/update/welcome-to-mickdady-hamza/2755144
+> website : https://rosy-cheetah-m2mt9z.mystrikingly.com/
 > source : https://github.com/Mickeymozy/Mickey-trony
 
-@ Denzel is bot made up by Mickey
+@ Mickey-trony is bot made up by Mickey
   *Thank you for your cooperation.* 
  乂───『 *ENYOY MY BOT*』───乂
 ${readMore}
@@ -91,7 +91,7 @@ ${readMore}
 }
 handler.help = ['main']
 handler.tags = ['group']
-handler.command = ['menu2', 'help2'] 
+handler.command = ['menu', 'help'] 
 
 export default handler
 function clockString(ms) {
