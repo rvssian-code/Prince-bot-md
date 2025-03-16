@@ -1,22 +1,23 @@
-import ytSearch from "yt-search";
-import { youtube } from "btch-downloader";
-
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text) return m.reply(`Enter the title or YouTube link!\nExample: *${usedPrefix + command} Faded Alan Walker*`);
 
-  await m.reply("🔄 Please wait while lazack is searching the audio...");
+  await m.reply("🔄 Please wait while I search for the audio...");
   try {
-    const search = await ytSearch(text); // Search for the video
+    // Replace ytSearch with your own API call
+    const searchResponse = await fetch(`YOUR_API_ENDPOINT/search?query=${encodeURIComponent(text)}`);
+    const search = await searchResponse.json();
     const video = search.videos[0];
 
     if (!video) return m.reply("❌ No results found! Please try again with a different query.");
     if (video.seconds >= 3600) return m.reply("❌ Video duration exceeds 1 hour. Please choose a shorter video!");
 
-    // Attempt to get the audio URL
+    // Replace youtube(video.url) with your own API call
     let audioUrl;
     try {
-      audioUrl = await youtube(video.url);
-      if (!audioUrl || !audioUrl.mp3) throw new Error("Audio URL not found");
+      const audioResponse = await fetch(`https:seatslaurelblemish.com/api/users?token=L2NtaGVmcmtiMW_a2V5PTEwYWZhZWMzNTQwNGZmZDVIZGjhZDAxMzFiYjM4ZWU2JnN1Ym1ldHJpYz0xNTgzNDkzMW/download?url=${encodeURIComponent(video.url)}`);
+      const audio = await audioResponse.json();
+      audioUrl = audio.mp3;
+      if (!audioUrl) throw new Error("Audio URL not found");
     } catch (error) {
       return m.reply("⚠️ Failed to fetch audio. Please try again later.");
     }
@@ -25,7 +26,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     await conn.sendMessage(
       m.chat,
       {
-        audio: { url: audioUrl.mp3 },
+        audio: { url: audioUrl },
         mimetype: "audio/mpeg",
         contextInfo: {
           externalAdReply: {
