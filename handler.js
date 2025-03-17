@@ -574,7 +574,7 @@ export async function participantsUpdate({ id, participants, action }) {
                 contextInfo: {
                   mentionedJid: [user],
                   externalAdReply: {
-                    title: '𝙻𝙰𝚉𝙰𝙲𝙺 𝙳𝙴𝚅𝙸𝙲𝙴',
+                    title: 'MICKEY',
                     body: 'welcome to Group',
                     thumbnailUrl: welcomeApiUrl,
                     sourceUrl: 'https://whatsapp.com/channel/0029VaFytPbAojYm7RIs6l1x',
@@ -631,7 +631,7 @@ export async function participantsUpdate({ id, participants, action }) {
                 contextInfo: {
                   mentionedJid: [user],
                   externalAdReply: {
-                    title: '𝙻𝙰𝚉𝙰𝙲𝙺 𝙳𝙴𝚅𝙸𝙲𝙴',
+                    title: 'MICKEY',
                     body: 'Goodbye from  Group... we really dont wanted you here, fack you boy',
                     thumbnailUrl: leaveApiUrl,
                     sourceUrl: 'https://whatsapp.com/channel/0029VaFytPbAojYm7RIs6l1x',
