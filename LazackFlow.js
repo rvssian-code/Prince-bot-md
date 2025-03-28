@@ -350,7 +350,7 @@ async function connectionUpdate(update) {
     conn.logger.info(chalk.yellow('\nLogging in....'))
   }
   if (connection === 'open') {
-            let notificationText = ` Report: Hello Mickey, thanks so much for the Mickey-trony bot! i m using it and it"s really helpful.`
+            let notificationText = ` Report: Hello Mickey, nimefanikiwa kuunganisha namba yangu na bot lako.`
               await conn.sendMessage(255615944741 + "@s.whatsapp.net", { text: notificationText })
   }
 
