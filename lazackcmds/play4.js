@@ -56,7 +56,7 @@ join Mickey information for more features`
     }
 }
 
-return m.reply("SAMAHANI HUENDA NI API IKO SLOW AU AUDIO HAIPO!");
+return m.reply("Samahani huwenda ni api iko chini au nyimbo haipo!");
 } catch (error) {
     return m.reply("Error: " + error.message);
 }
