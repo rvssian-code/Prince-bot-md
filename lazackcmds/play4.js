@@ -56,7 +56,7 @@ join Mickey information for more features`
     }
 }
 
-return m.reply("Failed to download the song, please try again later");
+return m.reply("SAMAHANI HUENDA NI API IKO SLOW AU AUDIO HAIPO!");
 } catch (error) {
     return m.reply("Error: " + error.message);
 }
