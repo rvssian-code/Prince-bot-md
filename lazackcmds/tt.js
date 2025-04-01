@@ -47,7 +47,7 @@ let handler = async (_0x2b04cc, {
       const _0x3d38e5 = await tts(_0x3b52f6, "thomas_shelby");
       const _0x3ff4bd = {
         "audio": _0x3d38e5,
-        "mimetype": "audio/mp4",
+        "mimetype": "audio/mp3",
         "ptt": true
       };
       await _0x8998d0.sendMessage(_0x2b04cc.chat, _0x3ff4bd, {
