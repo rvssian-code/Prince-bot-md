@@ -1,30 +1,27 @@
 import axios from "axios";
+import { load } from 'dotenv';
+import { ElevenLabs, play } from 'elevenlabs';
 
-const model = ["bella", "echilling", "adam", "prabowo", "thomas_shelby", "michi_jkt48", "jokowi", "megawati", "nokotan", "boboiboy", "yanzgpt"];
+load();
 
-const tts = (query, voiceModel) => {
-  return new Promise(async (resolve, reject) => {
-    if (!model.includes(voiceModel)) {
-      return reject(new Error("Invalid voice model."));
-    }
+const client = new ElevenLabs({
+  apiKey: process.env.ELEVENLABS_API_KEY,
+});
 
-    try {
-      const response = await axios.get("https://api.yanzbotz.live/api/tts/voice-over", {
-        params: {
-          query: query,
-          model: voiceModel,
-          apiKey: "PrincelovesYanz"
-        },
-        responseType: "arraybuffer"
-      });
-
-      resolve(response.data);
-    } catch (error) {
-      const errorMessage = error.response ? error.response.data : error.message;
-      console.error("Error details:", errorMessage);
-      reject(new Error("Failed to generate voice-over. Check the console for details."));
-    }
-  });
+const tts = async (query, voiceModel) => {
+  try {
+    const audio = await client.textToSpeech.convert({
+      text: query,
+      voiceId: voiceModel,
+      modelId: "eleven_multilingual_v2",
+      outputFormat: "mp3_44100_128",
+    });
+    play(audio);
+    return audio;
+  } catch (error) {
+    console.error("Error details:", error.message);
+    throw new Error("Failed to generate voice-over. Check the console for details.");
+  }
 };
 
 let handler = async (message, { conn, text, args, usedPrefix, command }) => {
@@ -44,7 +41,7 @@ let handler = async (message, { conn, text, args, usedPrefix, command }) => {
 
   try {
     for (const chunk of textChunks) {
-      const audio = await tts(chunk, "thomas_shelby");
+      const audio = await tts(chunk, "JBFqnCBsd6RMkjVDRZzb");
       await conn.sendMessage(message.chat, {
         audio: audio,
         mimetype: "audio/mp4",
