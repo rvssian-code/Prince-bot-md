@@ -56,7 +56,7 @@ join Mickey information for more features`
     }
 }
 
-return m.reply("Samahani huwenda ni api iko chini au nyimbo haipo!");
+return m.reply("Sorry may api is down or unavailabe song !");
 } catch (error) {
     return m.reply("Error: " + error.message);
 }
