@@ -65,21 +65,21 @@ let handler = async (m, { conn, isRowner }) => {
   let neww = performance.now()
   let speed = neww - old
 
-  let text = `*🤖 LAZACK-MD STATUS*\n\n` +
-    `🟢 *Running Time:*\n${muptime}\n\n` +
-    `⚡ *Speed:* ${speed.toFixed(2)} ms\n\n` +
-    `💻 *CPU Info:*\n` +
+  let text = `*MICKEY-TRONY*\n\n` +
+    ` *Running Time:*\n${muptime}\n\n` +
+    ` *Speed:* ${speed.toFixed(2)} ms\n\n` +
+    ` *CPU Info:*\n` +
     `- Cores: ${cpus.length}\n` +
     `- Model: ${cpus[0].model.trim()}\n` +
     `- Speed: ${cpu.speed.toFixed(2)} MHz\n\n` +
-    `🧠 *Memory:*\n` +
+    ` *Memory:*\n` +
     `- Total RAM: ${format(totalmem())}\n` +
     `- Free RAM: ${format(freemem())}\n` +
     `- Used RAM: ${format(used.heapUsed)} / ${format(used.heapTotal)}\n\n` +
-    `💬 *Chats:* ${chats.length}\n` +
-    `👥 *Groups:* ${groupsIn.length}\n\n` +
+    ` *Chats:* ${chats.length}\n` +
+    ` *Groups:* ${groupsIn.length}\n\n` +
     `────────────────────\n` +
-    `👨‍💻 Made with ❤️ by *Team Lazack*`
+    `👨‍💻 Made with bot by *Team Mickey*`
 
   await conn.sendMessage(m.chat, { text: text, mentions: [m.sender] }, { quoted: m })
 }
