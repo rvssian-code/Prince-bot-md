@@ -18,7 +18,7 @@ let handler = async (m, { conn, args }) => {
 
     try {
         for (let i = 0; i < organisationEmojis.length; i++) {
-            let newText = `${organisationEmojis[i]} Lazack Organisation is here to innovate and create change in the tech world!`;
+            let newText = `${organisationEmojis[i]} Kwa maoni na ushauri usiache kunijulisha kwa kuandika .report [alafu ujumbe]!`;
 
             // Edit the message using protocolMessage
             await conn.relayMessage(
