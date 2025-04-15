@@ -26,13 +26,13 @@ let handler = async (m, { conn, args, text, command }) => {
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363200367779016@newsletter',
-        newsletterName: 'SILVA MD CONFESSIONS 💌',
+        newsletterName: 'MICKDAD ',
         serverMessageId: 143,
       },
       externalAdReply: {
-        title: "SILVA CONFESSIONS 💖",
+        title: "MICKDAD CONFESS",
         body: "Tap to reply anonymously",
-        thumbnailUrl: "https://i.imgur.com/RvEKtPJ.jpeg",
+        thumbnailUrl: "https://i.imgur.com/ip5vWOg.jpeg",
         sourceUrl: `https://${replyLink}`,
         mediaType: 1,
         renderLargerThumbnail: true,
