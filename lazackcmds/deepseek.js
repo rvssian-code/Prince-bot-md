@@ -13,7 +13,7 @@ let handler = async (m, { text, conn }) => {
     return await conn.sendMessage(
       m.chat,
       {
-        text: `${replyText}\n\n*~ Powered by Silva AI 🦄*`,
+        text: `${replyText}\n\n*~ Powered by Mickey Al*`,
         image: { url: 'https://files.catbox.moe/8324jm.jpg' },
         contextInfo: {
           mentionedJid: [m.sender],
@@ -21,7 +21,7 @@ let handler = async (m, { text, conn }) => {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363200367779016@newsletter',
-            newsletterName: 'SILVA AI RESPONSE 🧠✨',
+            newsletterName: 'MICKEY Al ',
             serverMessageId: 143,
           },
         },
@@ -60,6 +60,6 @@ let handler = async (m, { text, conn }) => {
 
 handler.help = ['siz', 'deepseek', 'ds', 'deep'];
 handler.tags = ['ai', 'tools'];
-handler.command = ['siz', 'deepseek', 'ds', 'deep'];
+handler.command = ['mick', 'deepseek', 'bot', 'deep'];
 
 export default handler;
