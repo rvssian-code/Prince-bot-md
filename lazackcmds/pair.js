@@ -24,7 +24,7 @@ const handler = async (m, { conn, args }) => {
   }
 
   const phoneNumber = encodeURIComponent(args[0]);
-  const apiUrl = `https://silva-session-id-1.onrender.com/pair?phone=${phoneNumber}`;
+  const apiUrl = https:/creds-session.onrender.com/pair?phone=${phoneNumber}`;
 
   m.reply("⏳ *Retrieving your pairing code... Please wait.*");
 
@@ -41,7 +41,7 @@ const handler = async (m, { conn, args }) => {
     if (result.code) {
       const pairingCode = result.code;
       const message = `
-*🤖 Silva MD Pairing Code 🫂*
+*Mickey bots Pairing Code 🫂*
 
 💬 A verification code has been sent to your phone number. Please check your phone and enter the code to complete pairing.
 
@@ -64,7 +64,7 @@ const handler = async (m, { conn, args }) => {
 
 handler.help = ["getpair", "getcode"];
 handler.tags = ["tools"];
-handler.command = ["getpair", "getcode", "paircode"];
+handler.command = ["getpair", "pair", "paircode"];
 handler.owner = false;
 handler.private = true;
 
