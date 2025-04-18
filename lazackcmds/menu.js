@@ -37,16 +37,24 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-╔══════════════════════╗
-║ 🌟 *𝐋𝐚𝐳𝐚𝐜𝐤-𝐌-𝐃𝐞𝐯𝐢𝐜𝐞* 🌟
-║ ─────────────────────
-║ 📌 *Version*: 1.0.1
-║ 👨‍💻 *Owner*: 𝐋𝐚𝐳𝐚𝐜𝐤
-║ 📞 *Contact*: +255734980103
-║ 💻 *Platform*: *𝙇𝙄𝙉𝙐𝙓*
-║ 🔒 *Mode*: *ℙ𝕌𝔹𝕃𝕀ℂ*
-║ ✨ *Prefix*: [ ${usedPrefix} ]
-╚══════════════════════╝
+╔══════════════════════════════════╗
+乂───『 *MICKEY-TRONY BOT*』───乂 
+> Library : MICKEY INFO TECH
+> Version : 2.9.0
+> website : https://rosy-cheetah-m2mt9z.mystrikingly.com/
+> source : https://github.com/Mickeymozy/Mickey-trony
+
+@ Mickey-trony is bot made up by Mickey
+  *Thank you for your cooperation.* 
+ 乂───『 *ENYOY MY BOT*』───乂
+${readMore}
+───『 *I N F O  C M D*』───
+> Try use shortcats to get the menu example *.botmenu*
+${readMore}
+『 *SHORTCUT MENU* 』 
+> *use this shortcuts*
+${readMore}
+╚═══════════════════════════════════╝
 
 ${readMore}
 👋 *Hello, ${username}!*
@@ -61,12 +69,12 @@ ${readMore}
 ╭───『 *Main Menu* 』───╮
 │
 ├─ ✦ ${usedPrefix}menu
-├─ ✦ ${usedPrefix}help
+├─ ✦ ${usedPrefix}myip
 ├─ ✦ ${usedPrefix}info
 ├─ ✦ ${usedPrefix}owner
 ├─ ✦ ${usedPrefix}runtime
 ├─ ✦ ${usedPrefix}ping
-│
+│─ ✦ ${usedPrefix}card
 ╰──────────────────────╯
 
 ${readMore}
@@ -78,7 +86,7 @@ ${readMore}
 ├─ ✦ ${usedPrefix}demote
 ├─ ✦ ${usedPrefix}tagall
 ├─ ✦ ${usedPrefix}setname
-├─ ✦ ${usedPrefix}setdesc
+├─ ✦ ${usedPrefix}confess
 ├─ ✦ ${usedPrefix}link
 ├─ ✦ ${usedPrefix}group *open/close*
 │
@@ -87,12 +95,12 @@ ${readMore}
 ${readMore}
 ╭───『 *Fun Commands* 』───╮
 │
-├─ ✦ ${usedPrefix}meme
-├─ ✦ ${usedPrefix}quote
-├─ ✦ ${usedPrefix}joke
-├─ ✦ ${usedPrefix}truth
-├─ ✦ ${usedPrefix}dare
-├─ ✦ ${usedPrefix}flirt
+├─ ✦ ${usedPrefix}getsticker
+├─ ✦ ${usedPrefix}readmore
+├─ ✦ ${usedPrefix}stupid
+├─ ✦ ${usedPrefix}waste
+├─ ✦ ${usedPrefix}emojimix
+├─ ✦ ${usedPrefix}love
 ├─ ✦ ${usedPrefix}ship
 │
 ╰──────────────────────╯
@@ -100,11 +108,11 @@ ${readMore}
 ${readMore}
 ╭───『 *Downloader* 』───╮
 │
-├─ ✦ ${usedPrefix}ytmp3
+├─ ✦ ${usedPrefix}play
 ├─ ✦ ${usedPrefix}song
 ├─ ✦ ${usedPrefix}yts
-├─ ✦ ${usedPrefix}play
-├─ ✦ ${usedPrefix}splay
+├─ ✦ ${usedPrefix}gitclone
+├─ ✦ ${usedPrefix}image
 ├─ ✦ ${usedPrefix}ytmp4
 ├─ ✦ ${usedPrefix}tiktok
 ├─ ✦ ${usedPrefix}instagram
@@ -115,28 +123,28 @@ ${readMore}
 
 ${readMore}
 ╭───『 *Tools* 』───╮
-│
-├─ ✦ ${usedPrefix}qr
-├─ ✦ ${usedPrefix}weather
+│─ ✦ ${usedPrefix}vv,read
+├─ ✦ ${usedPrefix}clock
+├─ ✦ ${usedPrefix}who
 ├─ ✦ ${usedPrefix}translate
-├─ ✦ ${usedPrefix}shorten
-├─ ✦ ${usedPrefix}define
-├─ ✦ ${usedPrefix}google
-│
-╰───────────────────╯
-
+├─ ✦ ${usedPrefix}tourl
+├─ ✦ ${usedPrefix}tovid
+├─ ✦ ${usedPrefix}summary
+│─ ✦ ${usedPrefix}shazam                                                                                  
+│─ ✦ ${usedPrefix}vcard
+╰──────────────────────╯
 ${readMore}
 ╭───『 *AI Features* 』───╮
 │
 ├─ ✦ ${usedPrefix}chatgpt
-├─ ✦ ${usedPrefix}dalle
+├─ ✦ ${usedPrefix}deep
 ├─ ✦ ${usedPrefix}bing
-├─ ✦ ${usedPrefix}bard
+├─ ✦ ${usedPrefix}mick
 ├─ ✦ ${usedPrefix}ai
 │
 ╰────────────────────╯
 
-🌐 *Visit*: https://home.lazackorganisation.my.id
+*please fork and star my repo for advice or any assistance type ${usedPrefix}report
 
 💡 *Tip*: Use the prefix *${usedPrefix}* and one of the commands above. For feedback, use ${usedPrefix}report.
 `
@@ -155,8 +163,8 @@ ${readMore}
             isForwarded: true,
             forwardingScore: 999,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363321705798318@newsletter', // Replace with actual channel JID
-              newsletterName: 'FREE BOT', // Replace with actual channel name
+              newsletterJid: '120363314875614529@newsletter', // Replace with actual channel JID
+              newsletterName: 'MICKDAD', // Replace with actual channel name
               serverMessageId: -1,
             },
           },
