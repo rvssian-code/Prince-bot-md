@@ -37,33 +37,30 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-╔══════════════════════════════════╗
+╔════════════════════════════════╗
 乂───『 *MICKEY-TRONY BOT*』───乂 
-> Library : MICKEY INFO TECH
-> Version : 2.9.0
-> website : https://rosy-cheetah-m2mt9z.mystrikingly.com/
-> source : https://github.com/Mickeymozy/Mickey-trony
+> Library :MICKEY INFO TECH
+> Version: 2.9.0
+> website: https://rosy-cheetah-m2mt9z.mystrikingly.com/
+> source: https://github.com/Mickeymozy/Mickey-trony
 
 @ Mickey-trony is bot made up by Mickey
   *Thank you for your cooperation.* 
  乂───『 *ENYOY MY BOT*』───乂
 ${readMore}
-───『 *I N F O  C M D*』───
-> Try use shortcats to get the menu example *.botmenu*
+『 *COMMAND MENU* 』 
+> *use this command by start with prefix*
 ${readMore}
-『 *SHORTCUT MENU* 』 
-> *use this shortcuts*
-${readMore}
-╚═══════════════════════════════════╝
+╚═══════════════════════════╝
 
 ${readMore}
 👋 *Hello, ${username}!*
 ${greeting}
 
-📅 *Date*: ${date}
-⏰ *Time*: ${wib}
-📊 *Total Users*: ${totaluser}
-📈 *Registered Users*: ${rtotalreg}
+ *Date*: ${date}
+ *Time*: ${wib}
+ *Total Users*: ${totaluser}
+ *Registered Users*: ${rtotalreg}
 
 ${readMore}
 ╭───『 *Main Menu* 』───╮
@@ -78,7 +75,7 @@ ${readMore}
 ╰──────────────────────╯
 
 ${readMore}
-╭───『 *Group Commands* 』───╮
+   『 *Group Commands* 』
 │
 ├─ ✦ ${usedPrefix}add
 ├─ ✦ ${usedPrefix}kick
@@ -90,10 +87,10 @@ ${readMore}
 ├─ ✦ ${usedPrefix}link
 ├─ ✦ ${usedPrefix}group *open/close*
 │
-╰───────────────────────╯
+╰
 
 ${readMore}
-╭───『 *Fun Commands* 』───╮
+    『 *Fun Commands* 』
 │
 ├─ ✦ ${usedPrefix}getsticker
 ├─ ✦ ${usedPrefix}readmore
@@ -103,10 +100,10 @@ ${readMore}
 ├─ ✦ ${usedPrefix}love
 ├─ ✦ ${usedPrefix}ship
 │
-╰──────────────────────╯
+
 
 ${readMore}
-╭───『 *Downloader* 』───╮
+   『 *Downloader* 』
 │
 ├─ ✦ ${usedPrefix}play
 ├─ ✦ ${usedPrefix}song
@@ -119,10 +116,10 @@ ${readMore}
 ├─ ✦ ${usedPrefix}facebook
 ├─ ✦ ${usedPrefix}mediafire
 │
-╰──────────────────────╯
+
 
 ${readMore}
-╭───『 *Tools* 』───╮
+   『 *Tools* 』
 │─ ✦ ${usedPrefix}vv,read
 ├─ ✦ ${usedPrefix}clock
 ├─ ✦ ${usedPrefix}who
@@ -132,9 +129,9 @@ ${readMore}
 ├─ ✦ ${usedPrefix}summary
 │─ ✦ ${usedPrefix}shazam                                                                                  
 │─ ✦ ${usedPrefix}vcard
-╰──────────────────────╯
+
 ${readMore}
-╭───『 *AI Features* 』───╮
+   『 *AI Features* 』
 │
 ├─ ✦ ${usedPrefix}chatgpt
 ├─ ✦ ${usedPrefix}deep
@@ -142,11 +139,11 @@ ${readMore}
 ├─ ✦ ${usedPrefix}mick
 ├─ ✦ ${usedPrefix}ai
 │
-╰────────────────────╯
 
-*please fork and star my repo for advice or any assistance type ${usedPrefix}report
 
-💡 *Tip*: Use the prefix *${usedPrefix}* and one of the commands above. For feedback, use ${usedPrefix}report.
+*For  contart and communication please contart me.*
+
+💡 *Tip*: Use the prefix *${usedPrefix}* and one of the commands above. For feedback, use ${usedPrefix}report and type your opinion.
 `
 
     
