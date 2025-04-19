@@ -16,7 +16,7 @@ let handler = async (m, { conn, args }) => {
       dog: text || 'im+stupid',
     }),
     'error.png',
-    `*@${author}*`,
+    `*@${owner}*`,
     m
   )
 }
