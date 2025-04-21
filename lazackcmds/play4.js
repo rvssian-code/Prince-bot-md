@@ -34,11 +34,11 @@ let handler = async (m, { conn, text, botname }) => {
                     caption: `
 *Title:* ${songData.tittle}
 *Artist:* ${songData.artist}
-join Mickey information for more features`
+*THANKS FOR USE* Mickey audio download`
                 },
             { quoted: m }
         );
-        await m.reply (" Please wait, the song is being downloaded...");
+        await m.reply (" Please wait, you audio on the way....");
 
         await conn.sendMessage(m.chat, {
             audio: { url: audioUrl },
@@ -46,7 +46,7 @@ join Mickey information for more features`
         { quoted: m }
     );
 
-    await m.reply("Enjoy your song!");
+    await m.reply("The audio is ready to download enjoy !");
 
     return;
             }
@@ -56,7 +56,7 @@ join Mickey information for more features`
     }
 }
 
-return m.reply("Sorry may api is down or unavailabe song !");
+return m.reply("Sorry! maybe server failed to find the song request");
 } catch (error) {
     return m.reply("Error: " + error.message);
 }
