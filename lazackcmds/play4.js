@@ -2,7 +2,7 @@ import axios from "axios";
 import lazacksongs from "yt-search";
 
 let handler = async (m, { conn, text, botname }) => {
-    if (!text) return m.reply("specify a song you want to play");
+    if (!text) return m.reply("Please specify a song you want to play.");
 
     await m.reply("Searching...");
 
@@ -10,7 +10,7 @@ let handler = async (m, { conn, text, botname }) => {
         let search = await lazacksongs(text);
         let video = search.videos[0];
 
-        if (!video) return m.reply("No results");
+        if (!video) return m.reply("No results found.");
 
         let link = video.url;
         let apis = [
@@ -19,47 +19,48 @@ let handler = async (m, { conn, text, botname }) => {
         ];
 
         for (const api of apis) {
-            try{
-                let {data} = await axios.get(api);
+            try {
+                let { data } = await axios.get(api);
                 if (data.status === 200) {
                     let audioUrl = data.result?.downloadUrl || data.url;
                     let songData = {
-                        tittle: data.result?.title || video.title,
+                        title: data.result?.title || video.title,
                         artist: data.result?.author || video.author.name,
                         thumbnail: data.result?.image || video.thumbnail,
                         videoUrl: link,
-                };
-                await conn.sendMessage(m.chat, {
-                    image: { url: songData.thumbnail },
-                    caption: `
-*Title:* ${songData.tittle}
+                    };
+
+                    await conn.sendMessage(m.chat, {
+                        image: { url: songData.thumbnail },
+                        caption: `
+*Title:* ${songData.title}
 *Artist:* ${songData.artist}
-*Audio is being sent soon*
-                },
-            { quoted: m }
-        );
-        await m.reply (" Please wait...,audio is ready to download");
+*Audio will be sent shortly.*
+                        `,
+                    }, { quoted: m });
 
-        await conn.sendMessage(m.chat, {
-            audio: { url: audioUrl },
-        mimetype: "audio/mp4",},
-        { quoted: m }
-    );
+                    await m.reply("Please wait... The audio is being prepared.");
 
-    await m.reply("Enjoy audio from Mickeytronybot !");
+                    await conn.sendMessage(m.chat, {
+                        audio: { url: audioUrl },
+                        mimetype: "audio/mp4",
+                    }, { quoted: m });
 
-    return;
+                    await m.reply("Enjoy the audio from Mickeytronybot!");
+
+                    return; // Exit the loop once a successful response is processed
+                }
+            } catch (e) {
+                console.error(`API Error (${api}):`, e.message);
+                continue; // Skip to the next API if the current one fails
             }
-        } catch (e) {
-            console.error(`API Error: ${api}):`, e.message);
-         continue; 
-    }
-}
+        }
 
-return m.reply("Sorry! maybe server failed to find the song request");
-} catch (error) {
-    return m.reply("Error: " + error.message);
-}
+        return m.reply("Sorry, the server failed to find the requested song.");
+    } catch (error) {
+        console.error("Handler Error:", error.message);
+        return m.reply("An error occurred: " + error.message);
+    }
 };
 
 handler.help = ["play4 <song>"];
