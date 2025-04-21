@@ -34,11 +34,11 @@ let handler = async (m, { conn, text, botname }) => {
                     caption: `
 *Title:* ${songData.tittle}
 *Artist:* ${songData.artist}
-*THANKS FOR USE* Mickey audio download`
+*Audio is being sent soon*
                 },
             { quoted: m }
         );
-        await m.reply (" Please wait, you audio on the way....");
+        await m.reply (" Please wait...,audio is ready to download");
 
         await conn.sendMessage(m.chat, {
             audio: { url: audioUrl },
@@ -46,7 +46,7 @@ let handler = async (m, { conn, text, botname }) => {
         { quoted: m }
     );
 
-    await m.reply("The audio is ready to download enjoy !");
+    await m.reply("Enjoy audio from Mickeytronybot !");
 
     return;
             }
