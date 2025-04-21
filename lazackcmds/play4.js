@@ -52,7 +52,7 @@ let handler = async (m, { conn, text, botname }) => {
             }
         } catch (e) {
             console.error(`API Error: ${api}):`, e.message);
-            continue; 
+         continue; 
     }
 }
 
