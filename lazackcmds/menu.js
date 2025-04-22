@@ -40,11 +40,10 @@ let str = `
 ╔═══════════════════════════╗
 乂───『 *MICKEY-TRONY BOT*』───乂 
 > Library :MICKEY INFO TECH
-> Version: 2.9.0
-> website: https://rosy-cheetah-m2mt9z.mystrikingly.com/
-> source: https://github.com/Mickeymozy/Mickey-trony
-
-> @ Mickey-trony is bot made up by Mickey
+> Version : 2.9.0
+> source : https://github.com/Mickeymozy/Mickey-trony
+> owner : Mickeymozy
+  *@ Mickey-trony is bot made up by Mickey*
   *Thank you for your cooperation.* 
  乂───『 *ENYOY MY BOT*』───乂
 ${readMore}
@@ -63,7 +62,7 @@ ${greeting}
  *Registered Users*: ${rtotalreg}
 
 ${readMore}
-╭───『 *Main Menu* 』───╮
+   『 *Main Menu* 』
 │
 ├─ ✦ ${usedPrefix}menu
 ├─ ✦ ${usedPrefix}myip
@@ -72,7 +71,7 @@ ${readMore}
 ├─ ✦ ${usedPrefix}runtime
 ├─ ✦ ${usedPrefix}ping
 │─ ✦ ${usedPrefix}card
-╰──────────────────────╯
+
 
 ${readMore}
    『 *Group Commands* 』
@@ -143,7 +142,7 @@ ${readMore}
 
 *For  contart and communication please contart me.*
 
-💡 *Tip: Use the prefix *${usedPrefix}* and one of the commands above. For feedback, use ${usedPrefix}report and type your opinion.*
+💡 *Tip: Use the prefix and one of the commands above. For feedback, use ${usedPrefix}report and type your opinion*
 `
    
        // await conn.sendMessage(m.chat, { video: { url: [pp, pp2, pp3, pp4, pp5, pp6, pp7, pp8, pp9, pp10, pp11, pp12, pp13, pp14, pp15].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo })
