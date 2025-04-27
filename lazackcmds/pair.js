@@ -9,9 +9,10 @@ const handler = async (m, { conn, args }) => {
   const currentTime = Date.now();
   const lastRequestTime = cooldown.get(sender);
   const cooldownTime = 1200000; // 20 minutes
+  const ownerPhoneNumber = process.env.OWNER_PHONE || "254700143167@s.whatsapp.net"; // Use environment variable for owner phone
 
   // Check cooldown for non-owner users
-  if (sender !== "254700143167@s.whatsapp.net" && lastRequestTime && currentTime - lastRequestTime < cooldownTime) {
+  if (sender !== ownerPhoneNumber && lastRequestTime && currentTime - lastRequestTime < cooldownTime) {
     const remainingTime = cooldownTime - (currentTime - lastRequestTime);
     const minutes = Math.floor(remainingTime / 60000);
     const seconds = Math.floor((remainingTime % 60000) / 1000);
@@ -23,8 +24,14 @@ const handler = async (m, { conn, args }) => {
     return conn.reply(m.chat, "📱 Please provide a phone number.\n\n*Example:* *.getpair 254700143167*", m);
   }
 
-  const phoneNumber = encodeURIComponent(args[0]);
-  const apiUrl = https:/creds-session.onrender.com/pair?phone=${phoneNumber}`;
+  const phoneNumber = args[0].trim();
+  const phoneRegex = /^[0-9]{10,15}$/; // Basic validation for phone number
+
+  if (!phoneRegex.test(phoneNumber)) {
+    return conn.reply(m.chat, "❌ Invalid phone number. Please provide a valid phone number (10-15 digits).", m);
+  }
+
+  const apiUrl = `https://creds-session.onrender.com/pair?phone=${encodeURIComponent(phoneNumber)}`;
 
   m.reply("⏳ *Retrieving your pairing code... Please wait.*");
 
