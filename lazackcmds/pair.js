@@ -9,7 +9,7 @@ const handler = async (m, { conn, args }) => {
   const currentTime = Date.now();
   const lastRequestTime = cooldown.get(sender);
   const cooldownTime = 1200000; // 20 minutes
-  const ownerPhoneNumber = process.env.OWNER_PHONE || "254700143167@s.whatsapp.net"; // Use environment variable for owner phone
+  const ownerPhoneNumber = process.env.OWNER_PHONE || "255612130873@s.whatsapp.net"; // Use environment variable for owner phone
 
   // Check cooldown for non-owner users
   if (sender !== ownerPhoneNumber && lastRequestTime && currentTime - lastRequestTime < cooldownTime) {
