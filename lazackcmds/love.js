@@ -1,10 +1,9 @@
-let regix = /love/i; // Regex pattern to match the word "love" (case insensitive)
-let asta = "I love you! 💖"; // Default message if the regex does not match
-
-const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-
 let handler = async (m, { conn, args }) => {
-    // Check if the input matches the regex; if not, use a default message
+    // Define regex and default message
+    let regix = /\S+/; // Matches any non-space character
+    let asta = "I LOVE YOU! "; // Default message if no input
+
+    // Check if input matches regex, else use default
     let messageToSend = regix.test(args.join(' ')) ? args.join(' ') : asta;
 
     // Array of heart emojis
@@ -14,18 +13,38 @@ let handler = async (m, { conn, args }) => {
         "🙂", "🤗", "😌", "😉", "🤗", "😊", "🎊", "🎉", "🎁", "❤"
     ];
 
-    // Send the first heart emoji
-    let { key: messageKey } = await conn.reply(m.chat, messageToSend.replace(regix, "" + heartEmojis[0]), m);
+    // Send initial message
+    let sent = await conn.sendMessage(m.chat, { text: `${messageToSend} 💖` }, { quoted: m });
 
-    // Loop through the heart emojis and send them with a delay
-    for (let i = 0; i < heartEmojis.length; i++) {
-        await sleep(800); // Wait for 800 milliseconds
-        await conn.reply(m.chat, messageToSend.replace(regix, "" + heartEmojis[i]), { edit: messageKey });
+    try {
+        for (let i = 0; i < heartEmojis.length; i++) {
+            let newText = `${heartEmojis[i]}`;
+
+            // Edit the message using protocolMessage
+            await conn.relayMessage(
+                m.chat,
+                {
+                    protocolMessage: {
+                        key: sent.key,
+                        type: 14,
+                        editedMessage: { conversation: newText },
+                    },
+                },
+                {}
+            );
+
+            await sleep(800); // Delay between edits
+        }
+    } catch (error) {
+        console.error("Error in love.js:", error);
     }
-}
+};
 
-handler.help = ['love']
-handler.tags = ['fun']
-handler.command = ['love']
-// Change to true if only the owner should use it
+// Sleep helper
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+handler.help = ['love'];
+handler.tags = ['fun'];
+handler.command = ['love'];
+
 export default handler;
