@@ -12,15 +12,7 @@ let handler = async m => {
       
 > Mickey-trony is bot made up by Mickey
   __________________________`,
-      buttons: [
-        { buttonId: 'sendText1', buttonText: { displayText: 'Send Text 1' }, type: 1 },
-        { buttonId: 'sendText2', buttonText: { displayText: 'Send Text 2' }, type: 1 }
-      ],
-      headerType: 1
-    }
-  );
-};
-
+   
 handler.help = ['ruth'];
 handler.tags = ['main'];
 handler.command = ['card'];
