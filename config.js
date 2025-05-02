@@ -43,8 +43,8 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.rcanal = ''
-global.canal = 'https://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz'
+global.rcanal = 'https://chat.whatsapp.com/FIk1ChQmNW84B6g8qat6Rn'
+global.canal = 'https://chat.whatsapp.com/FIk1ChQmNW84B6g8qat6Rn'
 
 
 global.APIs = {
@@ -81,7 +81,7 @@ global.author = '𝙡𝙖𝙯𝙖𝙘𝙠'
 global.menuvid = ''
 global.igfg = ''
 global.dygp = ''
-global.fgsc = 'https://github.com/Mickeymozy/Mickey-trony'
+global.fgsc = 'https://github.com/PRINCETECH20/Prince-bot-md'
 global.fgyt = 'https://youtube.com/@MickeyMozy'
 global.fgpyp = 'https://youtube.com/@MickeyMozy'
 global.fglog = ''
