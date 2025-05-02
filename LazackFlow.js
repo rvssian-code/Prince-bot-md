@@ -356,7 +356,7 @@ async function connectionUpdate(update) {
 
   if (connection === 'open') {
     const { jid, name } = conn.user
-    const msg = `𝕮𝖔𝖓𝖌𝖗𝖆𝖙𝖘! Prince bot md 𝖎𝖘 𝖓𝖔𝖜 𝖑𝖎𝖛𝖊 𝖔𝖓 𝖞𝖔𝖚𝖗 𝖜𝖍𝖆𝖙𝖘𝖆𝖕𝖕.𝕰𝖓𝖏𝖔𝖞 𝖙𝖍𝖊 𝖆𝖉𝖉𝖊𝖉 𝖋𝖊𝖆𝖙𝖚𝖗𝖊𝖘::\n\n\n https://chat.whatsapp.com/`
+    const msg = `𝕮𝖔𝖓𝖌𝖗𝖆𝖙𝖘! Prince bot md 𝖎𝖘 𝖓𝖔𝖜 𝖑𝖎𝖛𝖊 𝖔𝖓 𝖞𝖔𝖚𝖗 𝖜𝖍𝖆𝖙𝖘𝖆𝖕𝖕.𝕰𝖓𝖏𝖔𝖞 𝖙𝖍𝖊 𝖆𝖉𝖉𝖊𝖉 𝖋𝖊𝖆𝖙𝖚𝖗𝖊𝖘::\n\n\n https://chat.whatsapp.com/FIk1ChQmNW84B6g8qat6Rn/`
 
     await conn.sendMessage(jid, { text: msg, mentions: [jid] }, { quoted: null })
 
