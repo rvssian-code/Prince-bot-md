@@ -13,7 +13,7 @@ let handler = async (m, { text, conn }) => {
     return await conn.sendMessage(
       m.chat,
       {
-        text: `${replyText}\n\n*~ Powered by Mickey Al*`,
+        text: `${replyText}\n\n*~ Powered by PRINCETECH Al*`,
         image: { url: 'https://files.catbox.moe/8324jm.jpg' },
         contextInfo: {
           mentionedJid: [m.sender],
@@ -21,7 +21,7 @@ let handler = async (m, { text, conn }) => {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363314875614529@newsletter',
-            newsletterName: 'MICKEY Al ',
+            newsletterName: 'PRINCETECH Al ',
             serverMessageId: 143,
           },
         },
