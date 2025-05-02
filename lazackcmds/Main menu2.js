@@ -1,7 +1,7 @@
 let handler = async m =>
   m.reply(
     `⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣷⣜⢿⣧⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⠻⣿⣿⣿⣿⣦⠄⠄
-   乂───『 *DENZEL BOT*』───乂 
+   乂───『 *PRINCE-BOT-MD*』───乂 
 > Library : MICKEY INFO TECH
 > Version : 2.9.0
 > source : https://github.com/Mickeymozy/Mickey-trony
