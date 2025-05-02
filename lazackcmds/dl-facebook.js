@@ -18,7 +18,7 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
     const tex = `
 ⊱ *FACEBOOK DOWNLOADER*⊰\n\n
 ↳ *VIDEO TITLE:* ${result.title}
-⊱ *_Mickeytrony whatsapp bot™*`
+⊱ *_prince-bot-md™*`
 
     const response = await fetch(result.videoUrl)
     const arrayBuffer = await response.arrayBuffer()
