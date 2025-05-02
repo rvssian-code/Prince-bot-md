@@ -7,7 +7,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "255615944741"
+const ownervb = process.env.OWNERS || "255654003502"
 
 
 const ownerlist = ownervb.split(';');
@@ -24,9 +24,9 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 //global.pairingNumber = "" //put your bot number here
 
-global.mods = ['255615944741', '255612130873']
-global.prems = ['255615944741', '255612130873', '255612130873']
-global.allowed = ['255615944741', '255612130873']
+global.mods = ['255654003502', '255612130873']
+global.prems = ['255654003502', '255612130873', '255612130873']
+global.allowed = ['255654003502', '255612130873']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -43,7 +43,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.rcanal = 'https://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz'
+global.rcanal = ''
 global.canal = 'https://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz'
 
 
