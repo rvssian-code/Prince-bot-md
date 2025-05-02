@@ -1,10 +1,10 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender)
-  var vn = 'https://cdn.jsdelivr.net/gh/Mickeymozy/Mickey-trony@main/Botify/Mickey.mp3'
-  let url = 'https://github.com/Mickeymozy/Mickey-trony'
+  var vn = 'https://cdn.jsdelivr.net/gh/PRINCETECH/prince-bot-md@main/Botify/Mickey.mp3'
+  let url = 'https://github.comPRINCETECH/prince-bot-md/'
   let murl = 'https://youtu.be/3j_EIP--2t8?si=4TFWV0On6Bl1wr-e'
-  let img = 'https://i.imgur.com/2rN3Xy7.jpeg'
+  let img = 'https://i.imgur.com/bf5Db5V.jpeg'
   let con = {
     key: {
       fromMe: false,
@@ -30,10 +30,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: 'MICKEY™ ',
+        title: 'PRINCE BOT™ ',
         body: 'Lazack md',
         thumbnailUrl: img,
-        sourceUrl: 'https://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz',
+        sourceUrl: '',
         mediaType: 1,
         renderLargerThumbnail: true,
       },
