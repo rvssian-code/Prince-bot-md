@@ -44,7 +44,7 @@ PRINCE-BOT-MD is a powerful Multi-Device WhatsApp bot developed by **PRINCE TECH
 
 ---
 #### 📌 **GET SESSION ID**
-<a href="https://bwc-xmd-scanner.onrender.com">
+<a href="https://silver-carly-54.tiiny.site/">
   <img title="GET SESSION ID" src="https://img.shields.io/badge/GET SESSION ID-HERE-green?style=for-the-badge&logo=nike" width="230" height="38.45"/>
 </a>
 
