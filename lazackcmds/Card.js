@@ -4,7 +4,6 @@ let handler = async m =>
 乂───『 *PRINCE BOT MD*』───乂 
 > Library : PRINCE BOT MD
 > Version : 1.0.0
-> website : https://rosy-cheetah-m2mt9z.mystrikingly.com/
 > source : https://github.com/PRINCETECH20/prince-bot-md
 
       if you find error or want to upgrade to premium plan contact to the owner.
