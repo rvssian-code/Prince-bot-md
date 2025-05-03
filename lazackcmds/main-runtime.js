@@ -65,7 +65,7 @@ let handler = async (m, { conn, isRowner }) => {
   let neww = performance.now()
   let speed = neww - old
 
-  let text = `*MICKEY-TRONY*\n\n` +
+  let text = `*PRINCE BOT MD*\n\n` +
     ` *Running Time:*\n${muptime}\n\n` +
     ` *Speed:* ${speed.toFixed(2)} ms\n\n` +
     ` *CPU Info:*\n` +
@@ -79,7 +79,7 @@ let handler = async (m, { conn, isRowner }) => {
     ` *Chats:* ${chats.length}\n` +
     ` *Groups:* ${groupsIn.length}\n\n` +
     `────────────────────\n` +
-    `👨‍💻 Made with bot by *Team Mickey*`
+    `👨‍💻 Made with bot by *Team Princetech*`
 
   await conn.sendMessage(m.chat, { text: text, mentions: [m.sender] }, { quoted: m })
 }
