@@ -6,9 +6,9 @@ let msg = await generateWAMessageFromContent(m.chat, {
   locationMessage: {
     degreesLatitude: 0,
     degreesLongitude: 0,
-    name: "Mickey-trony repo click here ",
+    name: "Prince bot md repo click here ",
     address: "Tanzania",
-    url: "https://github.com/Mickeymozy/Mickey-trony/",
+    url: "https://github.com/PRINCETECH20/[prince-bot-md",
     isLive: true,
     accuracyInMeters: 0,
     speedInMps: 0,
