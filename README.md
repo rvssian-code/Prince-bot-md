@@ -2,16 +2,6 @@
 
 ![Modern-Technology](https://github.com/user-attachments/assets/72bd07ab-5b34-4280-b959-584b3c759a5b)
 
-
-</p>
-<p align="center"><img src="https://profile-counter.glitch.me/{Lazack28}/count.svg" alt="Lazack28 :: Visitor's Count" /></p>
-<p align="center">  
-
-<p align="center">
-  <a href="https://chat.whatsapp.com/ICNOZzsDH9E81j3RlqLx4w">
-    <img alt=Support height="250" src="https://i.imgur.com/gcB7GLV.jpeg"> 
-    </p>
-
 ****[FORK THIS REPO](https://github.com/Dady24/Denzel-V2//fork)****
 
 ***[GROUP](https://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz)***
