@@ -60,6 +60,6 @@ let handler = async (m, { text, conn }) => {
 
 handler.help = ['siz', 'deepseek', 'ds', 'deep'];
 handler.tags = ['ai', 'tools'];
-handler.command = ['mick', 'deepseek', 'bot', 'deep'];
+handler.command = ['prince', 'deepseek', 'bot', 'deep'];
 
 export default handler;
