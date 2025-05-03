@@ -2,7 +2,9 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+PRINCE+BOT+MD+MADE+BY;PRINCETECH;THANKS+FOR+VISITING+MY+REPO)](https://git.io/typing-svg)
 
-![Modern-Technology](https://github.com/user-attachments/assets/72bd07ab-5b34-4280-b959-584b3c759a5b)
+
+![67b0d378-2c63-4636-b1ff-15e414a465c4](https://github.com/user-attachments/assets/ae9b0557-fee6-47c8-977a-4d0862cfd9d6)
+
 
 ****[FORK THIS REPO](https://github.com/Dady24/Denzel-V2//fork)****
 
