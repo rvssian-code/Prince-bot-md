@@ -1,6 +1,6 @@
 {
   "name": "PRINCE BOT MD",
-  "description": " Whatsapp botz made by team lazack.",
+  "description": " Whatsapp botz made by PRINCE TECH.",
   "keywords": [
     "whatsapp bot"
   ],
@@ -10,7 +10,7 @@
     "OWNERS": {
       "description": "owner numbers",
       "required": true,
-      "value": "255734980103"
+      "value": "255654003502"
     },
     "BOTNAME": {
       "description": "Give your BOT a name",
