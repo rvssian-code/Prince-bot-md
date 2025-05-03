@@ -4,7 +4,7 @@
 
 
 ![67b0d378-2c63-4636-b1ff-15e414a465c4](https://github.com/user-attachments/assets/ae9b0557-fee6-47c8-977a-4d0862cfd9d6)
-
+*HOW TO GET PRINCE BOT*
 
 ****[FORK THIS REPO](https://github.com/Dady24/Denzel-V2//fork)****
 
