@@ -15,12 +15,12 @@ let handler = async function (m, { conn, __dirname }) {
 
       // Format the repository information with emojis
       const formattedInfo = `
-      MICKEY INFORMATION TECHNOLOGY 💦☣
+      PRINCE TEH  💦☣
 THANKS FOR SUPPORT 
 
-MAKE PAYMENT THROUGH ACCOUNT NUMBER 0615944741
+MAKE PAYMENT THROUGH ACCOUNT NUMBER 0654003502
 
-\`\`\`NAME MICKDADI HAMZA\`\`\`
+\`\`\`NAME \`\`\`
 `.trim()
 
       // Send the formatted information as a message
