@@ -2,7 +2,8 @@
 
 #        PRINCE-BOT-MD 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐒
 
-![357e358be70a4ac4b3334e5fdddc32d5](https://github.com/user-attachments/assets/1fd8ab21-a1f6-41af-b07a-011942c2f0c1)
+![357e358be70a4ac4b3334e5fdddc32d5](https://github.com/user-attachments/assets/c281e462-8946-42e5-8931-c6da8e95e9e3)
+
 
 
 <p align="center">
