@@ -154,7 +154,7 @@ ${readMore}
             isForwarded: true,
             forwardingScore: 999,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363321705798318@newsletter', // Replace with actual channel JID
+              newsletterJid: '120363314875614529@newsletter', // Replace with actual channel JID
               newsletterName: 'PRINCETECH', // Replace with actual channel name
               serverMessageId: -1,
             },
