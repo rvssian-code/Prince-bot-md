@@ -1,5 +1,5 @@
 {
-  "name": "Lazack Device",
+  "name": "PRINCE BOT MD",
   "description": " Whatsapp botz made by team lazack.",
   "keywords": [
     "whatsapp bot"
@@ -15,7 +15,7 @@
     "BOTNAME": {
       "description": "Give your BOT a name",
       "required": true,
-      "value": "𝐋𝐀𝐙𝐀𝐂𝐊-𝐃𝐄𝐕𝐈𝐂𝐄"
+      "value": "PRINCE-𝐃𝐄𝐕𝐈𝐂𝐄"
     },
     "DATABASE_URL": {
       "description": "your mongodb database url",
