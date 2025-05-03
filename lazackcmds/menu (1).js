@@ -38,11 +38,11 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 ╔══════════════════════╗
-║ 🌟 *𝐋𝐚𝐳𝐚𝐜𝐤-𝐌-𝐃𝐞𝐯𝐢𝐜𝐞* 🌟
+║ 🌟 *PRINCE-BOT-MD* 🌟
 ║ ─────────────────────
-║ 📌 *Version*: 1.0.1
-║ 👨‍💻 *Owner*: 𝐋𝐚𝐳𝐚𝐜𝐤
-║ 📞 *Contact*: +255734980103
+║ 📌 *Version*: 1.0.0
+║ 👨‍💻 *Owner*: PRINCETECH
+║ 📞 *Contact*: +255654003502
 ║ 💻 *Platform*: *𝙇𝙄𝙉𝙐𝙓*
 ║ 🔒 *Mode*: *ℙ𝕌𝔹𝕃𝕀ℂ*
 ║ ✨ *Prefix*: [ ${usedPrefix} ]
@@ -136,7 +136,6 @@ ${readMore}
 │
 ╰────────────────────╯
 
-🌐 *Visit*: https://home.lazackorganisation.my.id
 
 💡 *Tip*: Use the prefix *${usedPrefix}* and one of the commands above. For feedback, use ${usedPrefix}report.
 `
@@ -156,7 +155,7 @@ ${readMore}
             forwardingScore: 999,
             forwardedNewsletterMessageInfo: {
               newsletterJid: '120363321705798318@newsletter', // Replace with actual channel JID
-              newsletterName: 'FREE BOT', // Replace with actual channel name
+              newsletterName: 'PRINCETECH', // Replace with actual channel name
               serverMessageId: -1,
             },
           },
