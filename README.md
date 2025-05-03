@@ -1,9 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+PRINCE+BOT+MD+MADE+BY;PRINCETECH;THANKS+FOR+VISITING+MY+REPO)](https://git.io/typing-svg)
 
-<p align="left">
-  <a href="" target="_blank">
-    <img alt="Forks" src="https://img.shields.io/github/forks/Dady24/Denzel-V2/" />
-  </a>
+![Modern-Technology](https://github.com/user-attachments/assets/72bd07ab-5b34-4280-b959-584b3c759a5b)
+
 
 </p>
 <p align="center"><img src="https://profile-counter.glitch.me/{Lazack28}/count.svg" alt="Lazack28 :: Visitor's Count" /></p>
