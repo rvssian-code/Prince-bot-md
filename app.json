@@ -4,7 +4,7 @@
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/Lazack28/Lazack-Device",
+  "repository": "https://github.com/PRINCETECH20/Prince-bot-md-Device",
   "stack": "container",
   "env": {
     "OWNERS": {
