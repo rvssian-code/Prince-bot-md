@@ -46,7 +46,7 @@ let handler = async (m, { conn, text, botname }) => {
                         mimetype: "audio/mp4",
                     }, { quoted: m });
 
-                    await m.reply("Enjoy the audio from Mickeytronybot!");
+                    await m.reply("Enjoy the audio from Prince bot md!");
 
                     return; // Exit the loop once a successful response is processed
                 }
