@@ -1,3 +1,5 @@
+𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐏𝐑𝐈𝐍𝐂𝐄 𝐁𝐎𝐓 𝐌𝐃
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+PRINCE+BOT+MD+MADE+BY;PRINCETECH;THANKS+FOR+VISITING+MY+REPO)](https://git.io/typing-svg)
 
 ![Modern-Technology](https://github.com/user-attachments/assets/72bd07ab-5b34-4280-b959-584b3c759a5b)
