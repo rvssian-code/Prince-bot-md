@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+DENZEL+BOT+V2+MADE+BY;MICK🇹🇿;THANKS+FOR+VISITING+MY+REPO)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+PRINCE+BOT+MD+MADE+BY;PRINCE🇹🇿;THANKS+FOR+VISITING+MY+REPO)](https://git.io/typing-svg)
 
 <p align="left">
   <a href="" target="_blank">
