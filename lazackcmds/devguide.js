@@ -31,8 +31,8 @@ ${quote}
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363200367779016@newsletter',
-        newsletterName: 'MICKDAD',
+        newsletterJid: '120363314875614529@newsletter',
+        newsletterName: 'PRINCEBOT',
         serverMessageId: 143
       }
     }
