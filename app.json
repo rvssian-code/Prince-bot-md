@@ -37,7 +37,7 @@
       "required": false,
       "value": ""
     },
-     "HKEY": {
+     "API KEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
       "required": true,
       "value": ""
@@ -47,7 +47,7 @@
       "required": true,
       "value": ""
     },
-    "statusview": {
+    "status view": {
       "description": "make it true if you want bot to view status",
       "required": false,
       "value": "true"
