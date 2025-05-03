@@ -73,6 +73,4 @@ PRINCE-BOT-MD is a powerful Multi-Device WhatsApp bot developed by **PRINCE TECH
 <p align="center">
   <a href="https://wa.me/qr/V2LOTVUSN252J1"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
   <a href="https://wa.me/qr/V2LOTVUSN252J1"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
-  <a href="https://www.facebook.com/profile.php?id=100086056192263"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="15%"> </a>
-  <a href="https://github.com/kephakings/BWC-XMD/"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/github.png" width="15%"> </a>
-</p>
+  <a 
