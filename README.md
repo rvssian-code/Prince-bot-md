@@ -13,7 +13,7 @@
 ---
 
 ### 🚀 **ABOUT PRINCE-BOT-MD**
-PRINCE-BOT-MD is a powerful Multi-Device WhatsApp bot developed by **PRINCE TECH**. It comes with advanced features, automation, and easy deployment options.
+PRINCE-BOT-MD is a new vision of whassap bot is safe to heroku before deploy please check video below for how to deploy
 
 ---
 
