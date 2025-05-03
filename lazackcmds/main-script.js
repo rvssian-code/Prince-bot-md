@@ -8,7 +8,7 @@ let msg = await generateWAMessageFromContent(m.chat, {
     degreesLongitude: 0,
     name: "Prince bot md repo click here ",
     address: "Tanzania",
-    url: "https://github.com/PRINCETECH20/[prince-bot-md",
+    url: "https://github.com/PRINCETECH20/Prince-bot-md",
     isLive: true,
     accuracyInMeters: 0,
     speedInMps: 0,
