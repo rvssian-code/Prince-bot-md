@@ -13,7 +13,7 @@
       "value": "255654003502"
     },
     "BOTNAME": {
-      "description": "Give your BOT a name",
+      "description": "Give your bot a name",
       "required": true,
       "value": "PRINCE-𝐃𝐄𝐕𝐈𝐂𝐄"
     },
@@ -47,12 +47,12 @@
       "required": true,
       "value": ""
     },
-    "status view": {
+    "STATUS VIEW": {
       "description": "make it true if you want bot to view status",
       "required": false,
       "value": "true"
     },
-    "autoRead": {
+    "AUTOREAD": {
       "description": "make it true if you want bot to read messages",
       "required": false,
       "value": ""
