@@ -37,20 +37,39 @@
 
 ----------------------
 
-***[TUTORIAL HOW TO DEPLOY](https://vm.tiktok.com/ZMrEaehwD/)***
 
-----------------------
+## 🪀 WHATSAPP CHANNEL 
+STAY CONNECTED WITH THE LATEST UPDATES AND COMMUNITY BY JOINING OUR OFFICIAL WHATSAPP GROUP AND CHANNEL. YOU CAN ALSO CONTACT THE OWNER DIRECTLY.
 
-****MAIN DEV EDITOR****
+[![WhatsApp Channel](https://img.shields.io/badge/JOIN-WHATSAAP%20CHANNEL-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vakd0RY35fLr1MUiwO3O)
 
- [![Mickey 24](https://github.com/Mickeymozy.png?size=100)](https://github.com/Mickeymozy)
+## 🪀 WHATSAPP GROUP
+JOINING OUR OFFICIAL WHATSAPP GROUP AND CHANNEL. YOU CAN ALSO CONTACT THE OWNER DIRECTLY.
 
-----------------------
+[![WhatsApp Group](https://img.shields.io/badge/JOIN-WHATSAAP%20GROUP-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vakd0RY35fLr1MUiwO3O)
 
-<h2 align="center">  NOTICE
-</h2>
-   
  
-- *Denzel Bots are made by a student if you see any errors please submit a pull request`*
-- *I may help you in bot deployment and bot code editing if i have time to do so*
-- *Use Denzel bots are always safe to youre heroku and give us credits.*
+
+
+***
+
+
+ <br>
+<h2 align="center"> ⚠️ DISCLAIMER ⚠️
+ </h2>
+ 
+ ---
+
+<h3 align="center"> DON'T COPY WITHOUT PERMISSION 
+</h3>
+
+<br>
+
+```
+I'M PRINCE TECHNOLOGY
+```
+-----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+------
+
