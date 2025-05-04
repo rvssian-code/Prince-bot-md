@@ -37,9 +37,9 @@
 ### 🚀 **ABOUT PRINCE-BOT-MD**
 PRINCE-BOT-MD is a new vision of whassap bot is safe to heroku before deploy please check video below for how to deploy
 
-HOW TO DEPLOY IN NEW VISION CHECK VIDEO BELOW 👇 👇 👇 👇 👇 
+HOW TO DEPLOY IN NEW VISION CHECK VIDEO BELOW 
 <a href="https://silver-carly-54.tiiny.site/">
-  <img title="CHECK VIDEO HERE" src="https://img.shields.io/badge/GET SESSION ID-HERE-green?style=for-the-badge&logo=nike" width="230" height="38.45"/>
+  <img title="CHECK VIDEO HERE" src="https://img.shields.io/badge/CHECK-VIDEO-HERE-green?style=for-the-badge&logo=nike" width="230" height="38.45"/>
 </a>
 #### 🚀 **DEPLOY NOW**
 <a href="https://dashboard.heroku.com/new-app">
