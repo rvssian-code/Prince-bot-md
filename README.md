@@ -35,11 +35,8 @@
 </a>
 
 HOW TO DEPLOY IN NEW VISION CHECK VIDEO BELOW 
-<a href="
-
 https://github.com/user-attachments/assets/c8d2752f-3061-4e4f-9470-34210041343e
 
-/">
   <img title="CHECK VIDEO HERE" src="https://img.shields.io/badge/CHECK-VIDEO-HERE-green?style=for-the-badge&logo=nike" width="230" height="38.45"/>
 </a>
 #### 🚀 **DEPLOY NOW**
