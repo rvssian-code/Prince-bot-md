@@ -10,18 +10,7 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Jersey+20+Charted&size=30&pause=1000&color=0DFF00&width=435&lines=BOT+100%25+LEGIT" alt="Typing SVG" /></a>
 </p>
 
----
 
----
-
-### 🔥 **FEATURES**
-✅ Multi-Device Support  
-✅ Fast & Secure  
-✅ Auto-Response System  
-✅ Media Download & Upload  
-✅ Custom Commands  
-✅ Easy Deployment  
-✅ Free & Open Source  
 
 ---
 
@@ -49,7 +38,9 @@
 PRINCE-BOT-MD is a new vision of whassap bot is safe to heroku before deploy please check video below for how to deploy
 
 HOW TO DEPLOY IN NEW VISION CHECK VIDEO BELOW 👇 👇 👇 👇 👇 
-
+<a href="https://silver-carly-54.tiiny.site/">
+  <img title="CHECK VIDEO HER" src="https://img.shields.io/badge/GET CLICK-HERE-VIDEO-red?style=for-the-badge&logo=nike" width="230" height="38.45"/>
+</a>
 #### 🚀 **DEPLOY NOW**
 <a href="https://dashboard.heroku.com/new-app">
   <img title="DEPLOY ON HEROKU" src="https://img.shields.io/badge/DEPLOY-ON HEROKU-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/>
