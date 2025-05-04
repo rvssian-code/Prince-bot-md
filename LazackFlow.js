@@ -350,8 +350,8 @@ async function connectionUpdate(update) {
     conn.logger.info(chalk.yellow('\nLogging in....'))
   }
   if (connection === 'open') {
-            let notificationText = ` CONNECTED:*Succesfully to connected in Prince bot md dababase* .`
-              await conn.sendMessage(255654003502 + "@s.whatsapp.net", { text: notificationText })
+            let notificationText = ` CONNECTED:*Succesfully to connected in loft md bot dababase* .`
+              await conn.sendMessage(+255778018545 + "@s.whatsapp.net", { text: notificationText })
   }
 
   if (connection === 'open') {
