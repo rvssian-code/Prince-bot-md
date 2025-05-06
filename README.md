@@ -2,7 +2,8 @@
 
 #        PRINCE-BOT-MD 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐒
 
-![357e358be70a4ac4b3334e5fdddc32d5](https://github.com/user-attachments/assets/c281e462-8946-42e5-8931-c6da8e95e9e3)
+![lazack](https://github.com/user-attachments/assets/4c512367-d49b-4db8-9a3f-0008497be19e)
+
 
 
 
