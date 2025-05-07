@@ -10,18 +10,7 @@
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Jersey+20+Charted&size=30&pause=1000&color=0DFF00&width=435&lines=BOT+100%25+LEGIT" alt="Typing SVG" /></a>
 </p>
-
-
-
 ---
-
-### 🌟 **NEW ALIVE ANIMATION**
-<p align="center">
-  <img src="https://i.imgur.com/LyHic3i.gif"/>
-</p>
-
----
-
 ### 🛠 **SETUP INSTRUCTIONS**
 
 # 🚀 **FORK & STAR THE REPO**
