@@ -13,7 +13,7 @@
 ----------------------------------
  **FORK & STAR THE REPO**
 <a href="https://github.com/PRINCETECH20/Prince-bot-md/fork">
-  <img title="FORK AND STAR" src="https://img.shields.io/badge/GET FORK-HERE-green?style=for-the-badge&logo=session" width="230" height="38.45"/>
+  <img title="FORK AND STAR" src="https://img.shields.io/badge/FORK-HERE-blue?style=for-the-badge&logo=session" width="230" height="38.45"/>
 </a>
 
 ---
