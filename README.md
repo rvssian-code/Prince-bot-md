@@ -38,7 +38,7 @@
 
 #### 🚀 **DEPLOY NOW**
 <a href="https://dashboard.heroku.com/new?template=https://github.com/PRINCETECH20/PRINCE-BOT-MD/edit/main/README.md">
-  <img title="DEPLOY ON HEROKU" src="https://img.shields.io/badge/DEPLOY-ON HEROKU-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/>
+  <img title="DEPLOY ON HEROKU" src="https://img.shields.io/badge/DEPLOY-ON HEROKU-purple?style=for-the-badge&logo=heroku" width="230" height="38.45"/>
 </a>
 
 ---
