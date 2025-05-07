@@ -1,8 +1,8 @@
 FROM quay.io/gurusensei/gurubhay:latest
 
-RUN git clone https://github.com/Lazack28/Lazack-Device /root/lazack
+RUN git clone https://github.com/PRINCETECH20/Prince-bot-md /root/prince
 
-WORKDIR /root/lazack/
+WORKDIR /root/prince/
 
 RUN npm install --platform=linuxmusl
 
