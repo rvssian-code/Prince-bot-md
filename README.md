@@ -10,7 +10,7 @@
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Jersey+20+Charted&size=30&pause=1000&color=0DFF00&width=435&lines=BOT+100%25+LEGIT" alt="Typing SVG" /></a>
 </p>
----
+----------------------------------
 
  **FORK & STAR THE REPO**
 <a href="https://github.com/PRINCETECH20/Prince-bot-md/fork">
@@ -40,13 +40,12 @@
 
 ---
 
-##
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=▭+▬+▭+▬+▭+▬+▭+▬+▭+▬+▭)](https://git.io/typing-svg)
 
-*MADE IN TAMZANIA BY PRINCE TECH*
+*MADE IN TANZANIA BY PRINCE TECH*
  
- *Thanks micky* and *loft tech*
+ *Thanks* *micky* and *loft tech*
  -------------------------------
 
 ### 🌟 **CONTACT PRINCE-BOT-MD TEAM**
