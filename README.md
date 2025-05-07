@@ -1,5 +1,5 @@
-
- PRINCE-BOT-MD 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐒
+  
+   PRINCE-BOT-MD 
 
 ![lazack](https://github.com/user-attachments/assets/4c512367-d49b-4db8-9a3f-0008497be19e)
 
@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Jersey+20+Charted&size=30&pause=1000&color=0DFF00&width=435&lines=BOT+100%25+LEGIT" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Jersey+20+Charted&size=30&pause=1000&color=0DFF00&width=435&lines=SAFE+TO+HEROKU" alt="Typing SVG" /></a>
 </p>
 
 ----------------------------------
