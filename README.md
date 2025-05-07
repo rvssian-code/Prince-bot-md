@@ -1,6 +1,6 @@
 
 
-#        PRINCE-BOT-MD 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐒
+        PRINCE-BOT-MD 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐒
 
 ![lazack](https://github.com/user-attachments/assets/4c512367-d49b-4db8-9a3f-0008497be19e)
 
@@ -18,7 +18,7 @@
 </a>
 
 ---
-#### 📌 **GET SESSION ID**
+   GET SESSION ID
 <a href="https://silver-carly-54.tiiny.site/">
   <img title="GET SESSION ID" src="https://img.shields.io/badge/GET SESSION ID-HERE-green?style=for-the-badge&logo=nike" width="230" height="38.45"/>
 </a>
