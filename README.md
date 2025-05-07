@@ -12,8 +12,6 @@
 </p>
 ---
 
-### 🛠 **SETUP INSTRUCTIONS**
-
  **FORK & STAR THE REPO**
 <a href="https://github.com/PRINCETECH20/Prince-bot-md/fork">
   <img title="Fork Repo" src="https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=red"/>
@@ -56,4 +54,5 @@
   <a 
 
 
-UNDER MAINTAINANCE
+*MADE IN TAMZANIA BY PRINCE TECH*
+ *Thanks micky and *loft tech*
