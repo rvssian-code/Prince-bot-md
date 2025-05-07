@@ -1,5 +1,5 @@
   
-   PRINCE-BOT-MD 
+   **PRINCE-BOT-MD** 
 
 ![lazack](https://github.com/user-attachments/assets/4c512367-d49b-4db8-9a3f-0008497be19e)
 
@@ -18,14 +18,14 @@
 
 ---
   
-   GET SESSION ID
+   **GET SESSION ID**
 <a href="https://silver-carly-54.tiiny.site/">
   <img title="GET SESSION ID" src="https://img.shields.io/badge/GET SESSION ID-HERE-green?style=for-the-badge&logo=render" width="230" height="38.45"/>
 </a>
 
 
 
-#### 🚀 **DEPLOY NOW**
+  **DEPLOY NOW**
 <a href="https://dashboard.heroku.com/new?template=https://github.com/PRINCETECH20/PRINCE-BOT-MD/edit/main/README.md">
   <img title="DEPLOY ON HEROKU" src="https://img.shields.io/badge/DEPLOY-ON HEROKU-blue?style=for-the-badge&logo=heroku" width="230" height="38.100"/>
 </a>
@@ -33,7 +33,7 @@
 
 ----------------------------------
 
-### 🌍 **PRINCE-BOT-MD SUPPORT**
+ 🌍 **PRINCE-BOT-MD SUPPORT**
 
 <a href="https://whatsapp.com/channel/0029VbAqgXx6mYPK6IVaY71V">
   <img height="30" title="SUPPORT GROUP" src="https://img.shields.io/badge/Support channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
@@ -42,9 +42,9 @@
 ---
 
 
-*MADE IN TANZANIA BY PRINCE TECH*
+**MADE IN TANZANIA BY PRINCE TECH**
  
- *Thanks* *micky* and *loft tech*
+ **Thanks** **micky** and **loft tech**
  -------------------------------
 
 ### 🌟 **CONTACT PRINCE-BOT-MD TEAM**
