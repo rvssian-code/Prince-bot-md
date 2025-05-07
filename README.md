@@ -41,9 +41,7 @@ https://github.com/user-attachments/assets/c8d2752f-3061-4e4f-9470-34210041343e
 
 
 #### 🚀 **DEPLOY NOW**
-<a href="https://dashboard.heroku.com/new-app">
-  <img title="DEPLOY ON HEROKU" src="https://img.shields.io/badge/DEPLOY-ON HEROKU-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/>
-</a>
+https://dashboard.heroku.com/new?template=https://github.com/PRINCETECH20/PRINCE-BOT-MD/edit/main/README.md
 
 ---
 
