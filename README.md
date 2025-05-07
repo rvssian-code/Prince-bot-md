@@ -54,5 +54,7 @@
   <a 
 
 
+
+
 *MADE IN TAMZANIA BY PRINCE TECH*
- *Thanks micky and *loft tech*
+ *Thanks micky* and *loft tech*
