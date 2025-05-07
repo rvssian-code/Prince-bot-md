@@ -35,10 +35,6 @@
   <img title="GET SESSION ID" src="https://img.shields.io/badge/GET SESSION ID-HERE-green?style=for-the-badge&logo=nike" width="230" height="38.45"/>
 </a>
 
-HOW TO DEPLOY IN NEW VISION CHECK VIDEO BELOW 
-
-https://github.com/user-attachments/assets/c8d2752f-3061-4e4f-9470-34210041343e
-
 
 #### 🚀 **DEPLOY NOW**
 <a href="https://dashboard.heroku.com/new?template=https://github.com/PRINCETECH20/PRINCE-BOT-MD/edit/main/README.md">
