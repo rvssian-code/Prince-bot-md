@@ -29,16 +29,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/Lazack28/Lazack-Device",
+    "homepage": "https://github.com/PRINCETECH20/Prince-bot-md-Device",
     "author": {
         "name": "PRINCE"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Lazack28/Lazack-Device.git"
+        "url": "git+https://github.com/PRINCETECH20/Prince-bot-md-Device.git"
     },
     "bugs": {
-        "url": "https://github.com/Lazack28/Lazack-Device/issues"
+        "url": "https://github.com/PRINCETECH20/Prince-bot-md-Device/issues"
     },
     "license": "Apache License 2.0",
     "dependencies": {
