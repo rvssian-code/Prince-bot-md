@@ -41,7 +41,7 @@ https://github.com/user-attachments/assets/c8d2752f-3061-4e4f-9470-34210041343e
 
 
 #### 🚀 **DEPLOY NOW**
-https://dashboard.heroku.com/new?template=https://github.com/PRINCETECH20/PRINCE-BOT-MD/edit/main/README.md
+https://dashboard.heroku.com/new?template=https://github.com/PRINCETECH20/PRINCE-BOT-MD
 
 ---
 
