@@ -1,84 +1,96 @@
-import axios from 'axios';
+const axios = require("axios");
+const { prince } = require(__dirname + "/../prince/tech");
+const { format } = require(__dirname + "/../prince/mesfonctions");
+const os = require('os');
+const moment = require("moment-timezone");
+const conf = require(__dirname + "/../set");
 
-let handler = async function (m, { conn }) {
-  const githubRepoURL = 'https://github.com/PRINCETECH20/Prince-bot-md/';
+const readMore = String.fromCharCode(8206).repeat(4001);
 
-  try {
-    const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
+const formatUptime = (seconds) => {
+    seconds = Number(seconds);
+    const days = Math.floor(seconds / 86400);
+    const hours = Math.floor((seconds % 86400) / 3600);
+    const minutes = Math.floor((seconds % 3600) / 60);
+    const remainingSeconds = Math.floor(seconds % 60);
 
-    const response = await axios.get(`https://api.github.com/repos/${username}/${repoName}`);
-
-    if (response.status === 200) {
-      const repoData = response.data;
-
-      // Format the repository information with emojis
-      const formattedInfo = `
-🚀 *Prince Repository*
-Mickeytrony is a powerful and feature-rich WhatsApp bot framework designed to enhance automation, security, and user experience. Perfect for developers looking to build advanced WhatsApp bots.
-
-📂 *Repository Name:* ${repoData.name}
-📝 *Description:* ${repoData.description || 'No description available'}
-👤 *Owner:* ${repoData.owner.login}
-⭐ *Stars:* ${repoData.stargazers_count}
-🍴 *Forks:* ${repoData.forks_count}
-🛠 *Open Issues:* ${repoData.open_issues_count}
-🔄 *Last Updated:* ${new Date(repoData.updated_at).toLocaleString()}
-🌐 *URL:* ${repoData.html_url}
-  
-
-🔗 *Clone & Start Building:*
-\`\`\`bash
-git clone ${repoData.clone_url}
-cd ${repoData.name}
-npm install
-node index.js
-\`\`\`
-🎉 *Contribute:*  
-We welcome contributions! Feel free to fork the repository, submit issues, or create pull requests to help improve Prince-Device.
-
-📞 *Support:*  
-Need help? Join our [Support Group](https://chat.whatsapp.com/255664003502) or contact us directly. 
-      `.trim();
-
-      // Send the formatted information as a message
-      await conn.relayMessage(
-        m.chat,
-        {
-          requestPaymentMessage: {
-            currencyCodeIso4217: 'INR',
-            amount1000: 69000,
-            requestFrom: m.sender,
-            noteMessage: {
-              extendedTextMessage: {
-                text: formattedInfo,
-                contextInfo: {
-                  externalAdReply: {
-                    title: 'PRINCE  WhatsApp Bot',
-                    body: 'Click here to visit the GitHub repository',
-                    mediaType: 1,
-                    mediaUrl: repoData.html_url,
-                    sourceUrl: repoData.html_url,
-                    showAdAttribution: true,
-                  },
-                },
-              },
-            },
-          },
-        },
-        {}
-      );
-    } else {
-      await conn.reply(m.chat, '❌ Unable to fetch repository information.', m);
-    }
-  } catch (error) {
-    console.error(error);
-    await conn.reply(m.chat, '⚠️ An error occurred while fetching repository information.', m);
-  }
+    return [
+        days > 0 ? `${days} ${days === 1 ? "day" : "days"}` : '',
+        hours > 0 ? `${hours} ${hours === 1 ? "hour" : "hours"}` : '',
+        minutes > 0 ? `${minutes} ${minutes === 1 ? "minute" : "minutes"}` : '',
+        remainingSeconds > 0 ? `${remainingSeconds} ${remainingSeconds === 1 ? "second" : "seconds"}` : ''
+    ].filter(Boolean).join(', ');
 };
 
-handler.help = ['script'];
-handler.tags = ['main'];
-handler.command = ['sc', 'repo'];
+// Fetch GitHub stats and multiply by 10
+const fetchGitHubStats = async () => {
+    try {
+        const response = await axios.get("https://api.github.com/repos/9Wish882/DAVINCS-MD");
+        const forksCount = response.data.forks_count * 11; 
+        const starsCount = response.data.stargazers_count * 11; 
+        const totalUsers = forksCount + starsCount; 
+        return { forks: forksCount, stars: starsCount, totalUsers };
+    } catch (error) {
+        console.error("Error fetching GitHub stats:", error);
+        return { forks: 0, stars: 0, totalUsers: 0 };
+    }
+};
 
-export default handler;
-*Dont forget for stars and fork*
+ezra({
+    nomCom: "repo",
+    aliases: ["script", "cs"],
+    reaction: '🚀',
+    nomFichier: __filename
+}, async (command, reply, context) => {
+    const { repondre, auteurMessage, nomAuteurMessage } = context;
+
+    try {
+        const response = await axios.get("https://api.github.com/PRINCETECH20/Prince-bot-md/");
+        const repoData = response.data;
+
+        if (repoData) {
+            
+            const repoInfo = {
+                stars: repoData.stargazers_count * 11,
+                forks: repoData.forks_count * 11,
+                updated: repoData.updated_at,
+                owner: repoData.owner.login
+            };
+
+            const releaseDate = new Date(repoData.created_at).toLocaleDateString('en-GB');
+            const message = `
+            *Hello 👋 my friend ${nomAuteurMessage}*
+
+            *This is ${conf.BOT}*
+            the best whatsapp bot in this world developed by ${conf.OWNER_NAME}. Fork and give a star 🌟 to my repo!
+     ╭═════┈┈┈═══════┈┈
+     ┣⁠✞  ⭐ Stars:* - ${repoInfo.stars}
+     ┣⁠✞  🍽️ Forks:* - ${repoInfo.forks}
+     ┣⁠✞  🔥Release date:* - ${releaseDate}
+     ┣⁠✞  ⚡Repo:* - ${repoData.html_url}
+     ┣⁠✞  🫅Owner:*   *${conf.OWNER_NAME}*
+     ╰┻┻┻┻┻┻┻┻┻┻┻┻┻┻┻┻┻┈`;
+
+            await reply.sendMessage(command, {
+                text: message,
+                contextInfo: {
+                    mentionedJid: [auteurMessage],
+                    externalAdReply: {
+                        title: conf.BOT,
+                        body: conf.OWNER_NAME,
+                        thumbnailUrl: conf.URL,
+                        sourceUrl: conf.GURL, // Fixed typo from 'cof.GURL' to 'conf.GURL'
+                        mediaType: 1,
+                        renderLargerThumbnail: true
+                    }
+                }
+            });
+        } else {
+            console.log("Could not fetch data");
+            repondre("An error occurred while fetching the repository data.");
+        }
+    } catch (error) {
+        console.error("Error fetching repository data:", error);
+        repondre("An error occurred while fetching the repository data.");
+    }
+});
