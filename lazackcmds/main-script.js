@@ -42,7 +42,7 @@ node index.js
 For detailed usage and customization instructions, check out the [Wiki](https://github.com/Mickeymozy/Mickey-trony/wiki).
 
 🎉 *Contribute:*  
-We welcome contributions! Feel free to fork the repository, submit issues, or create pull requests to help improve Lazack-Device.
+We welcome contributions! Feel free to fork the repository, submit issues, or create pull requests to help improve Prince-Device.
 
 📞 *Support:*  
 Need help? Join our [Support Group](https://chat.whatsapp.com/255664003502) or contact us directly.
