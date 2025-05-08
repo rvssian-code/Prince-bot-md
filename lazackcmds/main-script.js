@@ -24,12 +24,7 @@ Mickeytrony is a powerful and feature-rich WhatsApp bot framework designed to en
 🛠 *Open Issues:* ${repoData.open_issues_count}
 🔄 *Last Updated:* ${new Date(repoData.updated_at).toLocaleString()}
 🌐 *URL:* ${repoData.html_url}
-
-💡 *Key Features:*
-✅ Easy to deploy and modify  
-✅ Supports multiple commands  
-✅ Secure and optimized  
-✅ Regular updates and improvements  
+  
 
 🔗 *Clone & Start Building:*
 \`\`\`bash
@@ -38,16 +33,11 @@ cd ${repoData.name}
 npm install
 node index.js
 \`\`\`
-📘 *Documentation:*  
-For detailed usage and customization instructions, check out the [Wiki](https://github.com/Mickeymozy/Mickey-trony/wiki).
-
 🎉 *Contribute:*  
 We welcome contributions! Feel free to fork the repository, submit issues, or create pull requests to help improve Prince-Device.
 
 📞 *Support:*  
-Need help? Join our [Support Group](https://chat.whatsapp.com/255664003502) or contact us directly.
-
-📢 Join our community and contribute to the project!  
+Need help? Join our [Support Group](https://chat.whatsapp.com/255664003502) or contact us directly. 
       `.trim();
 
       // Send the formatted information as a message
@@ -91,4 +81,4 @@ handler.tags = ['main'];
 handler.command = ['sc', 'repo'];
 
 export default handler;
-
+*Dont forget for stars and fork*
