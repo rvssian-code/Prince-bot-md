@@ -57,8 +57,8 @@ let handler = async (m, { conn, usedPrefix, command }) => {
           𝘽𝙊𝙏 𝙈𝙀𝙉𝙐  
    ╰───•••──┄ °❀     
   ┏━♼ ⊖⊖⊖ ♽━┓
-> 🗡️⃝🎋 _${usedPrefix}gita_
-> 🗡️⃝🎋 _${usedPrefix}ping_
+> π _${usedPrefix}gita_
+> π _${usedPrefix}ping_
 > 🗡️⃝🎋 _${usedPrefix}uptime_
 > 🗡️⃝🎋 _${usedPrefix}bot_
 > 🗡️⃝🎋 _${usedPrefix}owner_
