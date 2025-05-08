@@ -22,7 +22,7 @@ let handler = async (m, { conn, args, command }) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363200367779016@newsletter',
+          newsletterJid: '+120363382023564830@newsletter',
           newsletterName: 'prince md bot',
           serverMessageId: 143
         }
