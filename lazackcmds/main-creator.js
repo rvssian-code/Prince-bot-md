@@ -2,14 +2,14 @@ let handler = async (m, { conn }) => {
     let vcard = `
   BEGIN:VCARD
   VERSION:3.0
-  N:;MICKEY;;;
-  FN:MICKEY
-  ORG:MICKEY
+  N:;PRINCE;;;
+  FN:PRINCE 
+  ORG:PRINCE
   TITLE:
-  TEL;waid=255615944741
-  X-ABLabel:MICKEY
+  TEL;waid=0654003502
+  X-ABLabel:PRINCE
   X-WA-BIZ-DESCRIPTION:
-  X-WA-BIZ-NAME:MICKEY
+  X-WA-BIZ-NAME:PRINCE
   END:VCARD
     `.trim();
   
@@ -17,7 +17,7 @@ let handler = async (m, { conn }) => {
       m.chat,
       {
         contacts: {
-          displayName: "MICKEY_45",
+          displayName: "PRINCE-TECH",
           contacts: [{ vcard }],
         },
       },
