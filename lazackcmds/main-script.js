@@ -44,8 +44,7 @@ For detailed usage and customization instructions, check out the [Wiki](https://
 🎉 *Contribute:*  
 We welcome contributions! Feel free to fork the repository, submit issues, or create pull requests to help improve prince bot md.
 
-📞 *Support:*  
-Need help? Join our [Support channel](https://whatsapp.com/channel/0029VbAqgXx6mYPK6IVaY71V) or contact us directly.
+📞 *Support:*   Join our [Support channel](https://whatsapp.com/channel/0029VbAqgXx6mYPK6IVaY71V) or contact us directly.
 
 📢 Join our community and contribute to the project!  
       `.trim();
