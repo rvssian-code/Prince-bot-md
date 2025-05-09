@@ -57,22 +57,22 @@ let handler = async (m, { conn, usedPrefix, command }) => {
           𝘽𝙊𝙏 𝙈𝙀𝙉𝙐  
    ╰───•••──┄ °❀     
   ┏━♼ ⊖⊖⊖ ♽━┓
-> π _${usedPrefix}gita_
-> π _${usedPrefix}ping_
-> 🗡️⃝🎋 _${usedPrefix}uptime_
-> 🗡️⃝🎋 _${usedPrefix}bot_
-> 🗡️⃝🎋 _${usedPrefix}owner_
-> 🗡️⃝🎋 _${usedPrefix}script_
-> 🗡️⃝🎋 _${usedPrefix}runtime_
-> 🗡️⃝🎋 _${usedPrefix}infobot_
-> 🗡️⃝🎋 _${usedPrefix}donate_
-> 🗡️⃝🎋 _${usedPrefix}groups_
-> 🗡️⃝🎋 _${usedPrefix}blocklist_
-> 🗡️⃝🎋 _${usedPrefix}listprem_
+> ∆ _${usedPrefix}gita_
+> ∆ _${usedPrefix}ping_
+> ∆ _${usedPrefix}uptime_
+> ∆ _${usedPrefix}bot_
+> ∆ _${usedPrefix}owner_
+> ∆ _${usedPrefix}script_
+> ∆ _${usedPrefix}runtime_
+> ∆ _${usedPrefix}infobot_
+> ∆ _${usedPrefix}donate_
+> ∆ _${usedPrefix}groups_
+> ∆ _${usedPrefix}blocklist_
+> ∆ _${usedPrefix}listprem_
    ⎪⌲    PRINCE BOT MD MENU LIST
    ┗━━━━━━━━━━━━━━━⪼` // Your bot menu message here
       break
-    case 'ownermenu':
+    case 'botmenu':
       lkr = `❀° ┄──•••───╮
           𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
      ╰───•••──┄ °❀     
