@@ -38,14 +38,14 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 ╔═══════════════════════════╗
-乂───『 *MICKEY-TRONY BOT*』───乂 
+乂───『 *PRINCE BOT MD*』───乂 
 > Library : INFO TECH
 > Version : 2.9.0
-> source : https://github.com/Mickeymozy/Mickey-trony
+> source : https://github.com/PRINCETECH20/Prince-bot-md
 > owner : PRINCE TECH 
-  *@ Mickey-trony is bot made up by Mickey*
+  *@ prince bot md is bot made up by prince tech*
   *Thank you for your cooperation.* 
- ∆───『 *ENYOY MY BOT*』───∆
+ ∆───『 *ILOVE MY BOT*』───∆
 ${readMore}
 『 *COMMAND MENU* 』 
 *use this command by start with prefix*
