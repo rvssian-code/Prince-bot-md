@@ -69,15 +69,12 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 > ∆ _${usedPrefix}groups_
 > ∆ _${usedPrefix}blocklist_
 > ∆ _${usedPrefix}listprem_
-   ⎪⌲    PRINCE BOT MD MENU LIST
-   ┗━━━━━━━━━━━━━━━⪼` // Your bot menu message here
-      break
-    case 'botmenu':
-      lkr = `❀° ┄──•••───╮
+  
+        lkr = `❀° ┄──•••───╮
           𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
      ╰───•••──┄ °❀     
-    ┏━♼ ⊖⊖⊖⊖⊖⊖ ♽━┓
-> 🗡️⃝🎋 _${usedPrefix}banchat_
+    ┏━♼ ⊖⊖⊖⊖⊖⊖ ♽━
+        🗡️⃝🎋 _${usedPrefix}banchat_
 > 🗡️⃝🎋 _${usedPrefix}unbanchat_
 > 🗡️⃝🎋 _${usedPrefix}banuser_
 > 🗡️⃝🎋 _${usedPrefix}unbanuser_
@@ -89,6 +86,12 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 > 🗡️⃝🎋 _${usedPrefix}resetprefix_
 > 🗡️⃝🎋 _${usedPrefix}getfile_
 > 🗡️⃝🎋 _${usedPrefix}getplugin_
+   ⎪⌲    PRINCE BOT MD MENU LIST
+   ┗━━━━━━━━━━━━━━━⪼` // Your bot menu message here
+      break
+    case 'botmenu':
+      ┓
+> 
      ┗━━━━━━━━━━━━━━━⪼` //
       break
     case 'groupmenu':
