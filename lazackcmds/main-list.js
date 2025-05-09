@@ -91,7 +91,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 > ∆ _${usedPrefix}getplugin_
      ┗━━━━━━━━━━━━━━━⪼` //
       break
-    case 'botmenu':
+    case 'groupmenu':
       lkr = `❀° ┄──•••───╮
           𝙂𝙍𝙊𝙐𝙋 𝙈𝙀𝙉𝙐 
     ╰───•••──┄ °❀     
@@ -149,12 +149,12 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 > 🗡️⃝🎋 _${usedPrefix}monthly_
 > 🗡️⃝🎋 _${usedPrefix}leaderboard_
 > 🗡️⃝🎋 _${usedPrefix}bet_
-> 🗡️⃝🎋 _${usedPrefix}heal_
-> 🗡️⃝🎋 _${usedPrefix}craft_
-> 🗡️⃝🎋 _${usedPrefix}balance_
-> 🗡️⃝🎋 _${usedPrefix}shop_
-> 🗡️⃝🎋 _${usedPrefix}sell_
-> 🗡️⃝🎋 _${usedPrefix}adventure_
+> ∆ _${usedPrefix}heal_
+> ∆ _${usedPrefix}craft_
+> ∆ _${usedPrefix}balance_
+> ∆ _${usedPrefix}shop_
+> ∆ _${usedPrefix}sell_
+> ∆ _${usedPrefix}adventure_
 > 🗡️⃝🎋 _${usedPrefix}opencrate_
 > 🗡️⃝🎋 _${usedPrefix}mine_
 > 🗡️⃝🎋 _${usedPrefix}work_
@@ -297,9 +297,9 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 > 🗡️⃝🎋 _${usedPrefix}pokedex_
 > 🗡️⃝🎋 _${usedPrefix}removebg_
 > 🗡️⃝🎋 _${usedPrefix}apk_
-> 🗡️⃝🎋 _${usedPrefix}tinyurl/shorturl_
-> 🗡️⃝🎋 _${usedPrefix}readvo_
-> 🗡️⃝🎋 _${usedPrefix}true_
+> ∆ _${usedPrefix}tinyurl/shorturl_
+> ∆ _${usedPrefix}readvo_
+> ∆ _${usedPrefix}true_
      ┗━━━━━━━━━━━━━━━⪼` //
       break
     case 'logomenu':
@@ -307,42 +307,42 @@ let handler = async (m, { conn, usedPrefix, command }) => {
           𝙇𝙊𝙂𝙊 𝙈𝙀𝙉𝙐
          ╰───•••──┄ °❀     
         ┏━♼ ⊖⊖⊖⊖⊖⊖ ♽━┓
-    > 🗡️⃝🎋 _${usedPrefix}blur_
-    > 🗡️⃝🎋 _${usedPrefix}difuminar2_
-    > 🗡️⃝🎋 _${usedPrefix}hornycard_
-    > 🗡️⃝🎋 _${usedPrefix}hornylicense_
-    > 🗡️⃝🎋 _${usedPrefix}simpcard_
-    > 🗡️⃝🎋 _${usedPrefix}itssostupid_
-    > 🗡️⃝🎋 _${usedPrefix}iss_
-    > 🗡️⃝🎋 _${usedPrefix}stupid_
-    > 🗡️⃝🎋 _${usedPrefix}tweet <comment>_
-    > 🗡️⃝🎋 _${usedPrefix}lolicon_
-    > 🗡️⃝🎋 _${usedPrefix}ytcomment <comment>_
+    > ∆ _${usedPrefix}blur_
+    > ∆ _${usedPrefix}difuminar2_
+    > ∆ _${usedPrefix}hornycard_
+    > ∆ _${usedPrefix}hornylicense_
+    > ∆ _${usedPrefix}simpcard_
+    > ∆ _${usedPrefix}itssostupid_
+    > ∆ _${usedPrefix}iss_
+    > ∆ _${usedPrefix}stupid_
+    > ∆ _${usedPrefix}tweet <comment>_
+    > ∆ _${usedPrefix}lolicon_
+    > ∆ _${usedPrefix}ytcomment <comment>_
          ┗━━━━━━━━━━━━━━━⪼`
       lkr = `
-  > 🗡️⃝🎋 _${usedPrefix}blur_
-  > 🗡️⃝🎋 _${usedPrefix}difuminar2_
-  > 🗡️⃝🎋 _${usedPrefix}hornycard_
-  > 🗡️⃝🎋 _${usedPrefix}hornylicense_
-  > 🗡️⃝🎋 _${usedPrefix}gfx1_
-  > 🗡️⃝🎋 _${usedPrefix}gfx2_
-  > 🗡️⃝🎋 _${usedPrefix}gfx3_
-  > 🗡️⃝🎋 _${usedPrefix}gfx4_
-  > 🗡️⃝🎋 _${usedPrefix}gfx5_
-  > 🗡️⃝🎋 _${usedPrefix}gfx6_
-  > 🗡️⃝🎋 _${usedPrefix}gfx7_
-  > 🗡️⃝🎋 _${usedPrefix}gfx8_
-  > 🗡️⃝🎋 _${usedPrefix}gfx9_
-  > 🗡️⃝🎋 _${usedPrefix}gfx10_
-  > 🗡️⃝🎋 _${usedPrefix}gfx11_
-  > 🗡️⃝🎋 _${usedPrefix}gfx12_
-  > 🗡️⃝🎋 _${usedPrefix}simpcard_
-  > 🗡️⃝🎋 _${usedPrefix}itssostupid_
-  > 🗡️⃝🎋 _${usedPrefix}iss_
-  > 🗡️⃝🎋 _${usedPrefix}stupid_
-  > 🗡️⃝🎋 _${usedPrefix}tweet <comment>_
-  > 🗡️⃝🎋 _${usedPrefix}lolicon_
-  > 🗡️⃝🎋 _${usedPrefix}ytcomment <comment>_
+  > ∆ _${usedPrefix}blur_
+  > ∆ _${usedPrefix}difuminar2_
+  > ∆ _${usedPrefix}hornycard_
+  > ∆ _${usedPrefix}hornylicense_
+  > ∆ _${usedPrefix}gfx1_
+  > ∆ _${usedPrefix}gfx2_
+  > ∆ _${usedPrefix}gfx3_
+  > ∆ _${usedPrefix}gfx4_
+  > ∆ _${usedPrefix}gfx5_
+  > ∆ _${usedPrefix}gfx6_
+  > ∆ _${usedPrefix}gfx7_
+  > ∆ _${usedPrefix}gfx8_
+  > ∆ _${usedPrefix}gfx9_
+  > ∆ _${usedPrefix}gfx10_
+  > ∆ _${usedPrefix}gfx11_
+  > ∆ _${usedPrefix}gfx12_
+  > ∆ _${usedPrefix}simpcard_
+  > ∆ _${usedPrefix}itssostupid_
+  > ∆ _${usedPrefix}iss_
+  > ∆ _${usedPrefix}stupid_
+  > ∆ _${usedPrefix}tweet <comment>_
+  > ∆ _${usedPrefix}lolicon_
+  > ∆ _${usedPrefix}ytcomment <comment>_
   ◈ .blur
   ◈ .difuminar2
   ◈ .hornycard
