@@ -91,7 +91,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 > ∆ _${usedPrefix}getplugin_
      ┗━━━━━━━━━━━━━━━⪼` //
       break
-    case 'groupmenu':
+    case 'botmenu':
       lkr = `❀° ┄──•••───╮
           𝙂𝙍𝙊𝙐𝙋 𝙈𝙀𝙉𝙐 
     ╰───•••──┄ °❀     
