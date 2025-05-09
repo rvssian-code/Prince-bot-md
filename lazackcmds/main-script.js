@@ -25,13 +25,9 @@ PRINCE BOT is a powerful and feature-rich WhatsApp bot framework designed to enh
 🔄 *Last Updated:* ${new Date(repoData.updated_at).toLocaleString()}
 🌐 *URL:* ${repoData.html_url}
 
-💡 *Key Features:*
-✅ Easy to deploy and modify  
-✅ Supports multiple commands  
-✅ Secure and optimized  
-✅ Regular updates and improvements  
 
-🔗 *Clone & Start Building:*
+
+🔗 *Clone* & Start *Building:*
 \`\`\`bash
 git clone ${repoData.clone_url}
 cd ${repoData.name}
@@ -46,8 +42,7 @@ We welcome contributions! Feel free to fork the repository, submit issues, or cr
 
 📞 *Support* *channel*
 [https://whatsapp.com/channel/0029VbAqgXx6mYPK6IVaY71V] or contact us directly.
-
-📢 Join our community and contribute to the project!  
+ 
       `.trim();
 
       // Send the formatted information as a message
