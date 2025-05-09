@@ -71,9 +71,9 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 > ∆ _${usedPrefix}listprem_
    ⎪⌲    PRINCE  BOR MD MENU LIST
    ┗━━━━━━━━━━━━━━━⪼` // Your bot menu message here
-      break
-    case 'ownermenu':
-      lkr = `❀° ┄──•••───╮
+      
+   ${readMore}'ownermenu':
+ = `❀° ┄──•••───╮
           𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
      ╰───•••──┄ °❀     
     ┏━♼ ⊖⊖⊖⊖⊖⊖ ♽━┓
