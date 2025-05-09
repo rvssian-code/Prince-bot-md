@@ -14,7 +14,7 @@ let handler = async function (m, { conn }) {
       // Format the repository information with emojis
       const formattedInfo = `
 🚀 *PRINCE Repository*
-Mickeytrony is a powerful and feature-rich WhatsApp bot framework designed to enhance automation, security, and user experience. Perfect for developers looking to build advanced WhatsApp bots.
+PRINCE BOT is a powerful and feature-rich WhatsApp bot framework designed to enhance automation, security, and user experience. Perfect for developers looking to build advanced WhatsApp bots.
 
 📂 *Repository Name:* ${repoData.name}
 📝 *Description:* ${repoData.description || 'No description available'}
