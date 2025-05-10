@@ -38,12 +38,12 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 ╔═══════════════════════════╗
-∆───『 *Prince bot md*』───∆ 
+∆───『*PRINCE BOT MD*』───∆ 
 > Library :PRINCE INFO TECH
 > Version : 2.9.0
 > source : https://github.com/PRINCETECH20/Prince-bot-md
-> owner : Prince BOT MD
-  *@ LOFTXMD is bot made up by LOFT*
+> owner : PRINCE TECH
+  *⚡ PRINCE BOT MD IS BOT MADE UP BY PRINCE*
   *Thank you for your cooperation.* 
  ∆───『 *ENJOY MY BOT*』──∆
 ${readMore}
