@@ -118,7 +118,7 @@ ${readMore}
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363398106360290@newsletter',
-        newsletterName: 'LOFT XMD MENU',
+        newsletterName: 'PRINCE BOT MD MENU',
         serverMessageId: 143
       }
     }
@@ -132,8 +132,8 @@ function clockString(ms) {
   return [h, m, s].map(v => v.toString().padStart(2, '0')).join(':')
 }
 
-handler.help = ['menu']
-handler.tags = ['menu']
-handler.command = ['menu']
+handler.help = ['repo']
+handler.tags = ['repo']
+handler.command = ['repo']
 
 export default handler
