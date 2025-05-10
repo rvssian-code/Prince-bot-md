@@ -117,7 +117,7 @@ ${readMore}
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363398106360290@newsletter',
+        newsletterJid: '120363419996770740@newsletter',
         newsletterName: 'PRINCE BOT MD MENU',
         serverMessageId: 143
       }
