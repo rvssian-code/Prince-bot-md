@@ -132,8 +132,8 @@ function clockString(ms) {
   return [h, m, s].map(v => v.toString().padStart(2, '0')).join(':')
 }
 
-handler.help = ['repo']
-handler.tags = ['repo']
-handler.command = ['repo']
+handler.help = ['menu']
+handler.tags = ['menu']
+handler.command = ['menu']
 
 export default handler
