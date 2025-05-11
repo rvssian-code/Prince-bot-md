@@ -69,7 +69,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 > 🗡️⃝🎋 _${usedPrefix}groups_
 > 🗡️⃝🎋 _${usedPrefix}blocklist_
 > 🗡️⃝🎋 _${usedPrefix}listprem_
-   ⎪⌲    LAZACK MD BOT MENU LIST
+   ⎪⌲    PRINCE BOT MD MENU LIST
    ┗━━━━━━━━━━━━━━━⪼` // Your bot menu message here
       break
     case 'ownermenu':
@@ -77,18 +77,18 @@ let handler = async (m, { conn, usedPrefix, command }) => {
           𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
      ╰───•••──┄ °❀     
     ┏━♼ ⊖⊖⊖⊖⊖⊖ ♽━┓
-> 🗡️⃝🎋 _${usedPrefix}banchat_
-> 🗡️⃝🎋 _${usedPrefix}unbanchat_
-> 🗡️⃝🎋 _${usedPrefix}banuser_
-> 🗡️⃝🎋 _${usedPrefix}unbanuser_
-> 🗡️⃝🎋 _${usedPrefix}Broadcast_
-> 🗡️⃝🎋 _${usedPrefix}Broadcastgc_
-> 🗡️⃝🎋 _${usedPrefix}join_
-> 🗡️⃝🎋 _${usedPrefix}setppbot_
-> 🗡️⃝🎋 _${usedPrefix}setprefix_
-> 🗡️⃝🎋 _${usedPrefix}resetprefix_
-> 🗡️⃝🎋 _${usedPrefix}getfile_
-> 🗡️⃝🎋 _${usedPrefix}getplugin_
+> ∆ _${usedPrefix}banchat_
+> ∆ _${usedPrefix}unbanchat_
+> ∆ _${usedPrefix}banuser_
+> ∆ _${usedPrefix}unbanuser_
+> ∆ _${usedPrefix}Broadcast_
+> ∆ _${usedPrefix}Broadcastgc_
+> ∆ _${usedPrefix}join_
+> ∆ _${usedPrefix}setppbot_
+> ∆ _${usedPrefix}setprefix_
+> ∆ _${usedPrefix}resetprefix_
+> ∆ _${usedPrefix}getfile_
+>∆_${usedPrefix}getplugin_
      ┗━━━━━━━━━━━━━━━⪼` //
       break
     case 'groupmenu':
@@ -96,22 +96,22 @@ let handler = async (m, { conn, usedPrefix, command }) => {
           𝙂𝙍𝙊𝙐𝙋 𝙈𝙀𝙉𝙐 
     ╰───•••──┄ °❀     
    ┏━♼ ⊖⊖⊖⊖⊖⊖ ♽━┓
-> 🗡️⃝🎋_${usedPrefix}kick *<@tag>*_
-> 🗡️⃝🎋_${usedPrefix}promote *<@tag>*_
-> 🗡️⃝🎋_${usedPrefix}demote *<@tag>*_
-> 🗡️⃝🎋_${usedPrefix}infogroup_
-> 🗡️⃝🎋_${usedPrefix}resetlink_
-> 🗡️⃝🎋_${usedPrefix}link_
-> 🗡️⃝🎋_${usedPrefix}setpp *<image>*_
-> 🗡️⃝🎋_${usedPrefix}setname *<text>*_
-> 🗡️⃝🎋_${usedPrefix}setdesc *<text>*_
-> 🗡️⃝🎋_${usedPrefix}setwelcome *<text>*_
-> 🗡️⃝🎋_${usedPrefix}setbye *<text>*_
-> 🗡️⃝🎋_${usedPrefix}hidetag *<text/image/audio/vid>*_
-> 🗡️⃝🎋_${usedPrefix}warn *<@tag>*_
-> 🗡️⃝🎋_${usedPrefix}unwarn *<@tag>*_
-> 🗡️⃝🎋_${usedPrefix}group *<open/close>*_
-> 🗡️⃝🎋_${usedPrefix}enable
+> 😒_${usedPrefix}kick *<@tag>*_
+> 🫴_${usedPrefix}promote *<@tag>*_
+> 🙂‍↕️_${usedPrefix}demote *<@tag>*_
+> 😁_${usedPrefix}infogroup_
+> ☠️_${usedPrefix}resetlink_
+> ☠️_${usedPrefix}link_
+> 🤓_${usedPrefix}setpp *<image>*_
+> 🙈_${usedPrefix}setname *<text>*_
+> 🐦_${usedPrefix}setdesc *<text>*_
+> 🏋️_${usedPrefix}setwelcome *<text>*_
+> 🙎_${usedPrefix}setbye *<text>*_
+> 🙋_${usedPrefix}hidetag *<text/image/audio/vid>*_
+> 🙇_${usedPrefix}warn *<@tag>*_
+> 🤦_${usedPrefix}unwarn *<@tag>*_
+> 🌚_${usedPrefix}group *<open/close>*_
+> 🔥_${usedPrefix}enable
     ┗━━━━━━━━━━━━━━━⪼` //
       break
     case 'downloadermenu':
@@ -120,13 +120,13 @@ let handler = async (m, { conn, usedPrefix, command }) => {
           𝘿𝙇 𝙈𝙀𝙉𝙐 
    ╰───•••──┄ °❀     
   ┏━♼ ⊖⊖⊖⊖⊖⊖ ♽━┓
-> 🗡️⃝🎋_${usedPrefix}play_
-> 🗡️⃝🎋_${usedPrefix}song_
+> 🎶_${usedPrefix}play_
+> ✴️_${usedPrefix}song_
 > 🗡️⃝🎋_${usedPrefix}yta <link>_
 > 🗡️⃝🎋_${usedPrefix}ytv <link>_
 > 🗡️⃝🎋_${usedPrefix}ytmp3 <link>_
 > 🗡️⃝🎋_${usedPrefix}ytmp4 <link>_
-> 🗡️⃝🎋_${usedPrefix}gimage_
+> _${usedPrefix}gimage_
 > 🗡️⃝🎋_${usedPrefix}pinterest_
 > 🗡️⃝🎋_${usedPrefix}mediafire <link>_
 > 🗡️⃝🎋_${usedPrefix}gdrive <link>_
